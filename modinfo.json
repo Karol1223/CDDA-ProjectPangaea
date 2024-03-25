@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ProjectPangaea",
+    "name": "Project Pangaea",
+    "maintainers": [ "Karol1223" ],
+    "description": "I have no idea fam.",
+    "category": "creatures",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "skill",
+    "id": "genetics",
+    "name": { "str": "genetics" },
+    "description": "Your skill in understanding of how the mechanisms of de-extinction work, as well as the knowledge of how to use those mechanisms to your advantage.",
+    "companion_industry_rank_factor": 1,
+    "display_category": "display_crafting",
+    "sort_rank": 21000,
+    "companion_skill_practice": [ { "skill": "menial", "weight": 15 } ]
+  }
+]

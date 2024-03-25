@@ -1,0 +1,64 @@
+[
+  {
+    "type": "TOOL",
+    "id": "genome_canvas",
+    "name": { "str_sp": "blank genome canvas" },
+    "description": "A portable storage device holding the software necessary to inprint the entire genome of a living creature.",
+    "category": "spare_parts",
+    "symbol": "0",
+    "color": "green",
+    "material": [ "aluminum" ],
+    "weight": "4536 mg",
+    "volume": "4 ml",
+    "longest_side": "5 cm",
+    "to_hit": { "grip": "bad", "length": "hand", "surface": "any", "balance": "clumsy" },
+    "use_action": {
+      "type": "transform",
+      "msg": "You erase the data on the genome canvas.",
+      "target": "genome_canvas",
+      "menu_text": "Erase data"
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_coelophysis",
+    "name": { "str_sp": "DNA sequence (Coelophysis bauri)" },
+    "description": "Pieces of genetic coding from the genome of Coelophysis bauri implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_coelophysis",
+    "name": { "str_sp": "genome (Coelophysis bauri)" },
+    "description": "The full genome of Coelophysis bauri implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_dilophosaurus",
+    "name": { "str_sp": "DNA sequence (Dilophosaurus wetherilli)" },
+    "description": "Pieces of genetic coding from the genome of Dilophosaurus wetherilli implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_dilophosaurus",
+    "name": { "str_sp": "genome (Dilophosaurus wetherilli)" },
+    "description": "The full genome of Dilophosaurus wetherilli implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_tyrannosaurus",
+    "name": { "str_sp": "DNA sequence (Tyrannosaurus rex)" },
+    "description": "Pieces of genetic coding from the genome of Tyrannosaurus rex implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_tyrannosaurus",
+    "name": { "str_sp": "genome (Tyrannosaurus rex)" },
+    "description": "The full genome of Tyrannosaurus rex implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  }
+]

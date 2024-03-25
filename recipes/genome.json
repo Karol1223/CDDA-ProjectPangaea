@@ -1,0 +1,106 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_PANGAEA",
+    "recipe_subcategories": [ "CSC_ALL", "CSC_PANGAEA_FOSSIL ANALYSIS", "CSC_PANGAEA_GENOMES", "CSC_PANGAEA_EGGS" ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id": "genome_triassic_random",
+    "name": "random triassic DNA sequence",
+    "description": "Throw the fossils you got your hands on into the machine and see what you get out of it.",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_FOSSIL ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "fossil_triassic", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "result_eocs": [
+      {
+        "id": "get_triassic_genome_shard_random",
+        "effect": [ { "u_spawn_item": "triassic_genome_shard_any", "use_item_group": true } ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id": "genome_jurassic_random",
+    "name": "random jurassic DNA sequence",
+    "description": "Throw the fossils you got your hands on into the machine and see what you get out of it.",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_FOSSIL ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "fossil_jurassic", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "result_eocs": [
+      {
+        "id": "get_jurassic_genome_shard_random",
+        "effect": [ { "u_spawn_item": "jurassic_genome_shard_any", "use_item_group": true } ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id": "genome_cretaceous_random",
+    "name": "random cretaceous DNA sequence",
+    "description": "Throw the fossils you got your hands on into the machine and see what you get out of it.",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_FOSSIL ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "fossil_cretaceous", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "result_eocs": [
+      {
+        "id": "get_cretaceous_genome_shard_random",
+        "effect": [ { "u_spawn_item": "cretaceous_genome_shard_any", "use_item_group": true } ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_coelophysis",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_GENOMES",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "genome_piece_coelophysis", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "byproducts": [ [ "genome_canvas", 10 ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_dilophosaurus",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_GENOMES",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "genome_piece_dilophosaurus", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "byproducts": [ [ "genome_canvas", 10 ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_tyrannosaurus",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_GENOMES",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "genome_piece_tyrannosaurus", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "byproducts": [ [ "genome_canvas", 10 ] ]
+  }
+]

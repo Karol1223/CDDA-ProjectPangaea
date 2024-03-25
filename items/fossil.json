@@ -1,0 +1,37 @@
+[
+  {
+    "type": "GENERIC",
+    "abstract": "fossil_base",
+    "name": { "str": "fossil" },
+    "description": "The fossilized remains of a long dead creature.",
+    "category": "spare_parts",
+    "symbol": "F",
+    "color": "light_gray",
+    "material": [ "stone" ],
+    "weight": "500 g",
+    "volume": "250 ml",
+    "to_hit": -1,
+    "melee_damage": { "bash": 7 }
+  },
+  {
+    "type": "GENERIC",
+    "id": "fossil_triassic",
+    "name": { "str": "triassic fossil" },
+    "description": "The fossilized remains of a long dead creature.  These ones seem to date back to the triassic period.",
+    "copy-from": "fossil_base"
+  },
+  {
+    "type": "GENERIC",
+    "id": "fossil_jurassic",
+    "name": { "str": "jurassic fossil" },
+    "description": "The fossilized remains of a long dead creature.  These ones seem to date back to the jurassic period.",
+    "copy-from": "fossil_base"
+  },
+  {
+    "type": "GENERIC",
+    "id": "fossil_cretaceous",
+    "name": { "str": "cretaceous fossil" },
+    "description": "The fossilized remains of a long dead creature.  These ones seem to date back to the cretaceous period.",
+    "copy-from": "fossil_base"
+  }
+]
