@@ -1,0 +1,53 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_UNLOCK_RECIPES",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "true_eocs": [ "EOC_ANALYZER_TRIASSIC", "EOC_ANALYZER_CHICKEN", "EOC_ANALYZER_WHATEVER" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_ABSTRACT",
+    "condition": {
+      "and": [
+        { "u_has_item": { "context_val": "item_to_analyze" } },
+        { "not": { "u_know_recipe": { "context_val": "recipe_to_give" } } }
+      ]
+    },
+    "effect": [ { "u_learn_recipe": { "context_val": "recipe_to_give" } } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_TRIASSIC",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "fossil_triassic", "recipe_to_give": "genome_triassic_random" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_JURASSIC",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "fossil_jurassic", "recipe_to_give": "genome_jurassic_random" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_CRETACEOUS",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "fossil_cretaceous", "recipe_to_give": "genome_cretaceous_random" }
+      }
+    ]
+  }
+]
