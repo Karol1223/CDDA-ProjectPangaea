@@ -1,0 +1,29 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_DNA_analyzer",
+    "name": "DNA analyzer",
+    "looks_like": "f_machinery_light",
+    "description": "Your inner child giggles like crazy because you've gotten your hands on a machine that's very much classified technology.  You can take this down and plug it into your own power grid to use it.",
+    "symbol": "8",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 55,
+    "required_str": 16,
+    "examine_action": { "type": "appliance_convert", "furn_set": "f_null", "item": "DNA_analyzer_item" },
+    "flags": [ "BLOCKSDOOR", "EASY_DECONSTRUCT" ],
+    "bash": {
+      "str_min": 40,
+      "str_max": 150,
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "cable", "charges": [ 0, 4 ] },
+        { "item": "scrap", "count": [ 8, 12 ] },
+        { "item": "steel_chunk", "count": [ 2, 4 ] },
+        { "item": "steel_lump", "count": [ 1, 2 ] },
+        { "item": "steel_plate", "count": [ 1, 2 ] }
+      ]
+    },
+    "deconstruct": { "items": [ { "item": "DNA_analyzer_item", "count": 1 } ] }
+  }
+]

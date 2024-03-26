@@ -1,0 +1,9 @@
+[
+  {
+    "id": "DNA_analyzer_tool",
+    "type": "TOOL",
+    "copy-from": "fake_appliance_tool",
+    "name": { "str": "DNA analyzer" },
+    "charges_per_use": 50
+  }
+]

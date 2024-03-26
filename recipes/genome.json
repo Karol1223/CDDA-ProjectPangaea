@@ -16,6 +16,7 @@
     "difficulty": 6,
     "time": "5 m",
     "autolearn": true,
+    "tools": [ [ [ "DNA_analyzer_tool", 50 ] ] ],
     "components": [ [ [ "fossil_triassic", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
     "result_eocs": [
       {
@@ -36,6 +37,7 @@
     "difficulty": 6,
     "time": "5 m",
     "autolearn": true,
+    "tools": [ [ [ "DNA_analyzer_tool", 50 ] ] ],
     "components": [ [ [ "fossil_jurassic", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
     "result_eocs": [
       {
@@ -56,6 +58,7 @@
     "difficulty": 6,
     "time": "5 m",
     "autolearn": true,
+    "tools": [ [ [ "DNA_analyzer_tool", 50 ] ] ],
     "components": [ [ [ "fossil_cretaceous", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
     "result_eocs": [
       {

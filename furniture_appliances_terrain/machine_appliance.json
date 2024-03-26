@@ -1,0 +1,25 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "ap_DNA_analyzer",
+    "name": { "str": "DNA analyzer" },
+    "looks_like": "f_DNA_analyzer",
+    "color": "red",
+    "categories": [ "utility" ],
+    "description": "If you really want to squash something a lot, this is exactly the right industrial tool for you.  Plugged in and ready to go.",
+    "damage_modifier": 10,
+    "damage_reduction": { "all": 30 },
+    "durability": 80,
+    "flags": [ "OBSTACLE", "APPLIANCE" ],
+    "pseudo_tools": [ { "id": "DNA_analyzer_tool" } ],
+    "item": "DNA_analyzer_item",
+    "breaks_into": [
+      { "item": "cable", "charges": [ 0, 4 ] },
+      { "item": "scrap", "count": [ 8, 12 ] },
+      { "item": "steel_chunk", "count": [ 2, 4 ] },
+      { "item": "steel_lump", "count": [ 1, 2 ] },
+      { "item": "steel_plate", "count": [ 1, 2 ] }
+    ],
+    "variants": [ { "symbols": "8", "symbols_broken": "#" } ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "type": "construction_group",
+    "id": "place_DNA_analyzer",
+    "name": "Place a DNA analyzer"
+  },
+  {
+    "type": "construction",
+    "id": "app_DNA_analyzer",
+    "group": "place_DNA_analyzer",
+    "category": "APPLIANCE",
+    "required_skills": [ [ "genetics", 0 ] ],
+    "time": "5 m",
+    "components": [ [ [ "DNA_analyzer_item", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_special": "done_appliance",
+    "activity_level": "BRISK_EXERCISE"
+  }
+]
