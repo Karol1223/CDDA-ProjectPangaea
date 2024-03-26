@@ -5,7 +5,8 @@
     "name": { "str": "Coelophysis bauri egg" },
     "description": "A bird egg implanted with a Coelophysis bauri embryo.",
     "copy-from": "egg_chicken",
-    "rot_spawn": "GROUP_EGG_SPARROW"
+    "rot_spawn": "GROUP_EGG_SPARROW",
+    "rot_spawn_chance": 100
   },
   {
     "type": "COMESTIBLE",
@@ -13,7 +14,8 @@
     "name": { "str": "Dilophosaurus wetherilli egg" },
     "description": "A bird egg implanted with a Dilophosaurus wetherilli embryo.",
     "copy-from": "egg_goose_canadian",
-    "rot_spawn": "GROUP_EGG_SPARROW"
+    "rot_spawn": "GROUP_EGG_SPARROW",
+    "rot_spawn_chance": 100
   },
   {
     "type": "COMESTIBLE",
@@ -21,6 +23,7 @@
     "name": { "str": "Tyrannosaurus rex egg" },
     "description": "A bird egg implanted with a Tyrannosaurus rex embryo.",
     "copy-from": "egg_goose_canadian",
-    "rot_spawn": "GROUP_EGG_SPARROW"
+    "rot_spawn": "GROUP_EGG_tyrannosaurus",
+    "rot_spawn_chance": 100
   }
 ]

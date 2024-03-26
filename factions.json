@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "predator_large",
+    "base_faction": "animal",
+    "neutral": [ "small_animal", "fish", "predator_large_juvenile" ],
+    "by_mood": [ "animal" ],
+    "hate": [ "predator_large" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "predator_large_juvenile",
+    "base_faction": "predator_large",
+    "neutral": [ "animal", "fish", "predator_large" ],
+    "by_mood": [ "small_animal" ]
+  }
+]
