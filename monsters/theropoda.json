@@ -75,8 +75,7 @@
     "name": { "str_sp": "Tyrannosaurus rex" },
     "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
     "copy-from": "mon_theropod_large_base",
-    "//": "When large weights and volumes are fixed this should be 8500 L and 8500 kg",
-    "harvest": "tyrannosaurus"
+    "//": "When large weights and volumes are fixed this should be 8500 L and 8500 kg"
   },
   {
     "type": "MONSTER",
