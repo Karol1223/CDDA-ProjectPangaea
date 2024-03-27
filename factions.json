@@ -11,7 +11,7 @@
     "type": "MONSTER_FACTION",
     "name": "predator_large_juvenile",
     "base_faction": "predator_large",
-    "neutral": [ "animal", "fish", "predator_large" ],
+    "neutral": [ "animal", "predator_large", "animal" ],
     "by_mood": [ "small_animal" ]
   }
 ]
