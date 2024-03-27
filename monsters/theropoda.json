@@ -24,7 +24,7 @@
     "families": [ "prof_intro_biology", "prof_physiology" ],
     "harvest": "dino_leather",
     "stomach_size": 300,
-    "special_attacks": [ [ "EAT_CARRION", 60 ] ],
+    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "scratch", 15 ], [ "EAT_CARRION", 60 ] ],
     "flags": [ "SMELLS", "SMALL_HIDER", "CORNERED_FIGHTER" ],
     "fear_triggers": [ "HURT" ]
   },
@@ -54,7 +54,7 @@
     "zombify_into": "mon_meat_cocoon_large",
     "grab_strength": 75,
     "stomach_size": 170000,
-    "special_attacks": [ [ "EAT_CARRION", 60 ] ],
+    "special_attacks": [ { "id": "teeth_grab" }, [ "EAT_CARRION", 60 ] ],
     "flags": [ "SMELLS", "BASHES", "DESTROYS", "PUSH_MON" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT" ],
     "armor": { "bash": 4, "cut": 2, "bullet": 2 }
@@ -67,7 +67,8 @@
     "copy-from": "mon_theropod_large_base",
     "default_faction": "predator_large_juvenile",
     "speed": 85,
-    "dodge": 3
+    "dodge": 3,
+    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "EAT_CARRION", 60 ] ]
   },
   {
     "type": "MONSTER",
@@ -75,7 +76,8 @@
     "name": { "str_sp": "Tyrannosaurus rex" },
     "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
     "copy-from": "mon_theropod_large_base",
-    "//": "When large weights and volumes are fixed this should be 8500 L and 8500 kg"
+    "//": "When large weights and volumes are fixed this should be 8500 L and 8500 kg",
+    "extend": { "special_attacks": [ { "id": "teeth_crush" } ] }
   },
   {
     "type": "MONSTER",

@@ -1,0 +1,36 @@
+[
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "teeth_grab",
+    "cooldown": 150,
+    "move_cost": 150,
+    "damage_max_instance": [ { "damage_type": "cut", "amount": 10 } ],
+    "hitsize_min": 4,
+    "effects_require_dmg": false,
+    "effects": [ { "id": "grabbed", "duration": 30000, "intensity": [ 5, 15 ] } ],
+    "accuracy": 5,
+    "blockable": false,
+    "self_effects_always": [ { "id": "grabbing", "duration": 30000 } ],
+    "hit_dmg_u": "%1$s catches your %2$s in its jaws!",
+    "hit_dmg_npc": "%s catches <npcname> in its jaws!",
+    "miss_msg_u": "%1$s tries to catch your %2$s in its jaws, but you dodge!",
+    "miss_msg_npc": "%s tries to close its jaws around <npcname>, but they dodge!",
+    "no_dmg_msg_u": "%1$s grabs your %2$s in its jaws!",
+    "no_dmg_msg_npc": "%s grabs <npcname> in its jaws!"
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "teeth_crush",
+    "cooldown": 50,
+    "move_cost": 80,
+    "damage_max_instance": [ { "damage_type": "bash", "amount": 100, "armor_penetration": 50, "armor_multiplier": 0.5 } ],
+    "hit_dmg_u": "%1$s's jaws clench around your %2$s, crushing it!",
+    "hit_dmg_npc": "%1$s's jaws clench around <npcname>, crushing them!",
+    "no_dmg_msg_u": "%1$s's jaws clench around your %2$s, but your armor protects you!",
+    "no_dmg_msg_npc": "%1$s's jaws clench around <npcname>, but their armor protects them!",
+    "condition": { "u_has_flag": "GRAB_FILTER" },
+    "dodgeable": false
+  }
+]
