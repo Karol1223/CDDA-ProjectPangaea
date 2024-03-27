@@ -1,17 +1,43 @@
 [
   {
     "type": "MONSTER_FACTION",
+    "name": "predator_small",
+    "base_faction": "animal",
+    "neutral": [ "animal", "fish", "predator_large", "predator_large_juv", "fox" ],
+    "by_mood": [ "small_animal", "sewer_snake" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "predator_small_juv",
+    "base_faction": "small_animal"
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "predator_large",
     "base_faction": "animal",
-    "neutral": [ "small_animal", "fish", "predator_large_juvenile" ],
+    "neutral": [ "small_animal", "fish", "predator_large_juv", "fox" ],
     "by_mood": [ "animal" ],
     "hate": [ "predator_large" ]
   },
   {
     "type": "MONSTER_FACTION",
-    "name": "predator_large_juvenile",
+    "name": "predator_large_juv",
     "base_faction": "predator_large",
-    "neutral": [ "animal", "predator_large", "animal" ],
-    "by_mood": [ "small_animal" ]
+    "neutral": [ "animal", "predator_large", "predator_small", "fox" ],
+    "by_mood": [ "small_animal", "sewer_snake" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "coelophysis",
+    "base_faction": "predator_small",
+    "friendly": [ "coelophysis_juv" ],
+    "neutral": [ "predator_small" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "coelophysis_juv",
+    "base_faction": "predator_small_juv",
+    "friendly": [ "coelophysis" ],
+    "neutral": [ "predator_small_juv" ]
   }
 ]

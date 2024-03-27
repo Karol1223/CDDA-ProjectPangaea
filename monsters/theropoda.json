@@ -4,7 +4,7 @@
     "abstract": "mon_theropod_small_base",
     "name": { "str": "base small theropod" },
     "description": "A base abstract for other small theropods to copy from.  If you see this, something went wrong.",
-    "default_faction": "predator_large",
+    "default_faction": "predator_small",
     "bodytype": "ostrich",
     "species": "DINOSAUR",
     "volume": "15 L",
@@ -27,6 +27,34 @@
     "stomach_size": 300,
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "scratch", 15 ], [ "EAT_CARRION", 60 ] ],
     "flags": [ "SMELLS", "SMALL_HIDER", "CORNERED_FIGHTER" ],
+    "fear_triggers": [ "HURT" ]
+  },
+  {
+    "type": "MONSTER",
+    "abstract": "mon_theropod_small_juv_base",
+    "name": { "str": "base small theropod juvenile" },
+    "description": "A tiny dinosaur chick.  Given the size, this one will probably not grow too dangerous… probably…",
+    "default_faction": "predator_large",
+    "bodytype": "ostrich",
+    "species": "DINOSAUR",
+    "volume": "450 ml",
+    "weight": "75 g",
+    "hp": 3,
+    "speed": 50,
+    "material": [ "flesh" ],
+    "symbol": "x",
+    "color": "grey",
+    "aggression": -99,
+    "morale": -8,
+    "melee_skill": 1,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 2,
+    "families": [ "prof_intro_biology", "prof_physiology" ],
+    "harvest": "dino_leather",
+    "stomach_size": 15,
+    "special_attacks": [ [ "EAT_CARRION", 60 ] ],
+    "flags": [ "SMELLS", "SMALL_HIDER", "SWARMS" ],
     "fear_triggers": [ "HURT" ]
   },
   {
@@ -63,14 +91,30 @@
   },
   {
     "type": "MONSTER",
-    "abstract": "mon_theropod_large_juvenile_base",
-    "name": { "str": "base small theropod" },
+    "abstract": "mon_theropod_large_juv_base",
+    "name": { "str": "base large theropod juvenile" },
     "description": "A juvenile that will, in time, grow into an apex predator.  Enjoy feeling safe in its presence while it lasts.",
-    "copy-from": "mon_theropod_large_base",
-    "default_faction": "predator_large_juvenile",
+    "copy-from": "mon_theropod_small_base",
+    "default_faction": "predator_large_juv",
     "speed": 85,
     "dodge": 3,
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "EAT_CARRION", 60 ] ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_clone_coelophysis",
+    "name": { "str_sp": "Coelophysis bauri" },
+    "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
+    "default_faction": "coelophysis",
+    "copy-from": "mon_theropod_small_base"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_clone_coelophysis_juv",
+    "name": { "str_sp": "juvenile Coelophysis bauri" },
+    "default_faction": "coelophysis_juv",
+    "copy-from": "mon_theropod_small_juv_base",
+    "upgrades": { "age_grow": 20, "into": "mon_clone_coelophysis" }
   },
   {
     "type": "MONSTER",
@@ -78,14 +122,14 @@
     "name": { "str_sp": "Tyrannosaurus rex" },
     "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
     "copy-from": "mon_theropod_large_base",
-    "//": "When large weights and volumes are fixed this should be 8500 L and 8500 kg",
+    "//": "When large sizes are fixed this should be 8500 L and 8500 kg",
     "extend": { "special_attacks": [ { "id": "teeth_crush" } ] }
   },
   {
     "type": "MONSTER",
-    "id": "mon_clone_tyrannosaurus_juvenile",
+    "id": "mon_clone_tyrannosaurus_juv",
     "name": { "str_sp": "juvenile Tyrannosaurus rex" },
-    "copy-from": "mon_theropod_large_juvenile_base",
+    "copy-from": "mon_theropod_large_juv_base",
     "upgrades": { "age_grow": 180, "into": "mon_clone_tyrannosaurus" }
   }
 ]
