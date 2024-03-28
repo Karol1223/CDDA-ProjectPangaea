@@ -13,11 +13,26 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "predator_medium",
+    "base_faction": "animal",
+    "neutral": [ "fish", "predator_large", "bear", "herbivore" ],
+    "by_mood": [ "small_animal", "predator_small", "predator_large_juv", "animal" ],
+    "hate": [ "predator_medium" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "predator_medium_juv",
+    "base_faction": "small_animal",
+    "neutral": [ "cat" ],
+    "by_mood": [ "small_animal", "sewer_snake" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "predator_large",
     "base_faction": "animal",
     "neutral": [ "small_animal", "fish", "predator_large_juv", "fox" ],
     "by_mood": [ "animal" ],
-    "hate": [ "predator_large" ]
+    "hate": [ "predator_large", "predator_medium" ]
   },
   {
     "type": "MONSTER_FACTION",
