@@ -22,5 +22,19 @@
       { "type": "link_up", "cable_length": 5, "charge_rate": "140 W" }
     ],
     "flags": [ "ELECTRONIC", "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "type": "TOOL",
+    "id": "sampler",
+    "name": { "str": "sampler" },
+    "description": "A tool that looks suspiciously similar to a cordless drill.  Keeping this on you during dissections will allow you to harvest tissue samples.  Or you can press the button on the back of it to try harvesting tissue samples from plantlife.",
+    "looks_like": "cordless_drill",
+    "symbol": "F",
+    "color": "green",
+    "material": [ "steel" ],
+    "longest_side": "22 cm",
+    "volume": "750 ml",
+    "weight": "2721 g",
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]

@@ -1,0 +1,16 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_event_test",
+    "eoc_type": "EVENT",
+    "required_event": "character_butchered_corpse",
+    "condition": {
+      "and": [
+        { "compare_string": [ "mon_chicken", { "context_val": "monster_id" } ] },
+        { "compare_string": [ "ACT_DISSECT", { "context_val": "butcher_type" } ] },
+        { "u_has_item": "sampler" }
+      ]
+    },
+    "effect": [ { "u_spawn_item": "tissue_sample_chicken" } ]
+  }
+]

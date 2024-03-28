@@ -43,7 +43,7 @@
     "speed": 50,
     "material": [ "flesh" ],
     "symbol": "x",
-    "color": "grey",
+    "color": "light_gray",
     "aggression": -99,
     "morale": -8,
     "melee_skill": 1,
