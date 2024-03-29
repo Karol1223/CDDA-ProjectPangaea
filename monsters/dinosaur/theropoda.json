@@ -25,7 +25,7 @@
     "families": [ "prof_intro_biology", "prof_physiology" ],
     "harvest": "dino_leather",
     "stomach_size": 300,
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "scratch", 15 ], [ "EAT_CARRION", 60 ] ],
+    "special_attacks": [ { "type": "bite", "cooldown": 3 }, [ "scratch", 5 ], [ "EAT_CARRION", 1 ] ],
     "flags": [ "SMELLS", "SMALL_HIDER", "CORNERED_FIGHTER" ],
     "fear_triggers": [ "HURT" ]
   },
@@ -53,7 +53,7 @@
     "families": [ "prof_intro_biology", "prof_physiology" ],
     "harvest": "dino_leather",
     "stomach_size": 15,
-    "special_attacks": [ [ "EAT_CARRION", 60 ] ],
+    "special_attacks": [ [ "EAT_CARRION", 1 ] ],
     "flags": [ "SMELLS", "SMALL_HIDER", "SWARMS" ],
     "fear_triggers": [ "HURT" ]
   },
@@ -84,7 +84,7 @@
     "zombify_into": "mon_meat_cocoon_large",
     "grab_strength": 75,
     "stomach_size": 170000,
-    "special_attacks": [ { "id": "teeth_grab" }, [ "EAT_CARRION", 60 ] ],
+    "special_attacks": [ { "id": "teeth_grab_medium" }, [ "EAT_CARRION", 1 ] ],
     "flags": [ "SMELLS", "BASHES", "PUSH_MON" ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE", "HURT" ],
     "armor": { "bash": 3, "cut": 2 }
@@ -100,7 +100,7 @@
     "weight": "2 kg",
     "speed": 65,
     "dodge": 3,
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "EAT_CARRION", 60 ] ]
+    "special_attacks": [ { "type": "bite", "cooldown": 3 }, [ "EAT_CARRION", 1 ] ]
   },
   {
     "type": "MONSTER",
@@ -129,7 +129,7 @@
     "zombify_into": "mon_meat_cocoon_large",
     "grab_strength": 75,
     "stomach_size": 170000,
-    "special_attacks": [ { "id": "teeth_grab" }, [ "EAT_CARRION", 60 ] ],
+    "special_attacks": [ { "id": "teeth_grab_large" }, [ "EAT_CARRION", 1 ] ],
     "flags": [ "SMELLS", "BASHES", "DESTROYS", "PUSH_MON" ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE", "HURT" ],
     "armor": { "bash": 4, "cut": 2, "bullet": 2 }
@@ -143,7 +143,7 @@
     "default_faction": "predator_large_juv",
     "speed": 85,
     "dodge": 3,
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "EAT_CARRION", 60 ] ]
+    "special_attacks": [ { "type": "bite", "cooldown": 3 }, [ "EAT_CARRION", 1 ] ]
   },
   {
     "type": "MONSTER",
@@ -165,12 +165,19 @@
   },
   {
     "type": "MONSTER",
+    "id": "mon_clone_dilophosaurus",
+    "name": { "str_sp": "Dilophosaurus wetherilli" },
+    "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
+    "copy-from": "mon_theropod_medium_base"
+  },
+  {
+    "type": "MONSTER",
     "id": "mon_clone_tyrannosaurus",
     "name": { "str_sp": "Tyrannosaurus rex" },
     "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
     "copy-from": "mon_theropod_large_base",
     "//": "When large sizes are fixed this should be 8500 L and 8500 kg",
-    "extend": { "special_attacks": [ { "id": "teeth_crush" } ] }
+    "extend": { "special_attacks": [ { "id": "teeth_crush_large" } ] }
   },
   {
     "type": "MONSTER",
