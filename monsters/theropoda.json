@@ -104,9 +104,11 @@
     "type": "MONSTER",
     "id": "mon_clone_coelophysis",
     "name": { "str_sp": "Coelophysis bauri" },
-    "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
+    "description": "A small skittish predator from the triassic of North America.  Small enough not to pose much of a threat unless you go around poking them with sticks.",
     "default_faction": "coelophysis",
-    "copy-from": "mon_theropod_small_base"
+    "copy-from": "mon_theropod_small_base",
+    "volume": "20 L",
+    "weight": "20 kg"
   },
   {
     "type": "MONSTER",
