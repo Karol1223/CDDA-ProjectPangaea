@@ -1,0 +1,44 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_coelophysis",
+    "name": { "str": "DNA sequence (Coelophysis bauri)", "str_pl": "DNA sequences (Coelophysis bauri)" },
+    "description": "Pieces of genetic coding from the genome of Coelophysis bauri implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_coelophysis",
+    "name": { "str": "genome (Coelophysis bauri)", "str_pl": "genomes (Coelophysis bauri)" },
+    "description": "The full genome of Coelophysis bauri implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_dilophosaurus",
+    "name": { "str": "DNA sequence (Dilophosaurus wetherilli)", "str_pl": "DNA sequences (Dilophosaurus wetherilli)" },
+    "description": "Pieces of genetic coding from the genome of Dilophosaurus wetherilli implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_dilophosaurus",
+    "name": { "str": "genome (Dilophosaurus wetherilli)", "str_pl": "genomes (Dilophosaurus wetherilli)" },
+    "description": "The full genome of Dilophosaurus wetherilli implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_tyrannosaurus",
+    "name": { "str": "DNA sequence (Tyrannosaurus rex)", "str_pl": "DNA sequences (Tyrannosaurus rex)" },
+    "description": "Pieces of genetic coding from the genome of Tyrannosaurus rex implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_tyrannosaurus",
+    "name": { "str": "genome (Tyrannosaurus rex)", "str_pl": "genomes (Tyrannosaurus rex)" },
+    "description": "The full genome of Tyrannosaurus rex implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  }
+]

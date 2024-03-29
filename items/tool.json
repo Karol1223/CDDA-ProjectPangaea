@@ -1,6 +1,26 @@
 [
   {
     "type": "TOOL",
+    "id": "genome_canvas",
+    "name": { "str_sp": "blank genome canvas" },
+    "description": "A portable storage device holding the software necessary to inprint the entire genome of a living creature.",
+    "category": "spare_parts",
+    "symbol": "0",
+    "color": "green",
+    "material": [ "aluminum" ],
+    "weight": "4536 mg",
+    "volume": "4 ml",
+    "longest_side": "5 cm",
+    "to_hit": { "grip": "bad", "length": "hand", "surface": "any", "balance": "clumsy" },
+    "use_action": {
+      "type": "transform",
+      "msg": "You erase the data on the genome canvas.",
+      "target": "genome_canvas",
+      "menu_text": "Erase data"
+    }
+  },
+  {
+    "type": "TOOL",
     "id": "DNA_analyzer",
     "name": { "str": "DNA analyzer" },
     "description": "Your inner child giggles like crazy because you've gotten your hands on a machine that's very much classified technology.  Needs to be placed and plugged into a power source to use.",
