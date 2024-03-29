@@ -4,6 +4,6 @@
     "id": "DINOSAUR",
     "fear_triggers": [ "FIRE" ],
     "bleeds": "fd_blood",
-    "flags": [ "SEES", "HEARS", "EATS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM" ]
+    "flags": [ "SEES", "HEARS", "EATS", "ANIMAL", "PATH_AVOID_FIRE", "PATH_AVOID_DANGER_1", "WARM" ]
   }
 ]
