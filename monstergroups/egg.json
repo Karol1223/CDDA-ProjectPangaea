@@ -5,6 +5,11 @@
     "monsters": [ { "monster": "mon_clone_coelophysis_juv" } ]
   },
   {
+    "name": "GROUP_egg_clone_dilophosaurus",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_clone_dilophosaurus_juv" } ]
+  },
+  {
     "name": "GROUP_egg_clone_tyrannosaurus",
     "type": "monstergroup",
     "monsters": [ { "monster": "mon_clone_tyrannosaurus_juv" } ]

@@ -54,5 +54,20 @@
     "base_faction": "predator_small_juv",
     "friendly": [ "coelophysis" ],
     "neutral": [ "predator_small_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "dilophosaurus",
+    "base_faction": "predator_medium",
+    "friendly": [ "dilophosaurus_juv" ],
+    "neutral": [ "animal" ],
+    "by_mood": [ "sewer_snake", "fox" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "dilophosaurus_juv",
+    "base_faction": "predator_medium_juv",
+    "friendly": [ "dilophosaurus" ],
+    "neutral": [ "predator_medium_juv" ]
   }
 ]

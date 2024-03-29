@@ -67,5 +67,20 @@
     "no_dmg_msg_npc": "%1$s's jaws clench around <npcname>, but their armor protects them!",
     "condition": { "u_has_flag": "GRAB_FILTER" },
     "dodgeable": false
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "teeth_bleed_medium",
+    "cooldown": 1,
+    "move_cost": 80,
+    "damage_max_instance": [ { "damage_type": "cut", "amount": 20, "armor_penetration": 2, "armor_multiplier": 0.5 } ],
+    "effects": [ { "id": "bleed", "duration": 200, "affect_hit_bp": true } ],
+    "hit_dmg_u": "%1$s sinks its fangs into your %2$s!",
+    "hit_dmg_npc": "%1$s sinks its fangs into <npcname>!",
+    "no_dmg_msg_u": "%1$s tries to sink its fangs into your %2$s, but your armor protects you!",
+    "no_dmg_msg_npc": "%1$s tries to sink its fangs into <npcname>, but their armor protects them!",
+    "condition": { "u_has_flag": "GRAB_FILTER" },
+    "dodgeable": false
   }
 ]

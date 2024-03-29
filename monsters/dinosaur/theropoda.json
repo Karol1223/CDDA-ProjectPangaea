@@ -65,8 +65,8 @@
     "default_faction": "predator_medium",
     "bodytype": "ostrich",
     "species": "DINOSAUR",
-    "volume": "540 L",
-    "weight": "540 kg",
+    "volume": "500 L",
+    "weight": "500 kg",
     "hp": 225,
     "speed": 145,
     "material": [ "flesh" ],
@@ -167,8 +167,22 @@
     "type": "MONSTER",
     "id": "mon_clone_dilophosaurus",
     "name": { "str_sp": "Dilophosaurus wetherilli" },
-    "description": "A giant bulky apex predator of cretaceous North America.  While it does not appear to pay you much thought, you probably shouldn't test its patience.  Congratulations - you brought back the king.",
-    "copy-from": "mon_theropod_medium_base"
+    "description": "A large slender predator from the Early Jurassic.  Despite its size, it is largely disinterested in your presence.  These predators prefer to hunt smaller prey.",
+    "default_faction": "dilophosaurus",
+    "copy-from": "mon_theropod_medium_base",
+    "volume": "400 L",
+    "weight": "400 kg",
+    "proportional": { "hp": 0.8 },
+    "extend": { "special_attacks": [ { "id": "teeth_bleed_medium" } ] },
+    "delete": { "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_clone_dilophosaurus_juv",
+    "name": { "str_sp": "juvenile Dilophosaurus wetherilli" },
+    "default_faction": "dilophosaurus_juv",
+    "copy-from": "mon_theropod_medium_juv_base",
+    "upgrades": { "age_grow": 100, "into": "mon_clone_dilophosaurus" }
   },
   {
     "type": "MONSTER",
