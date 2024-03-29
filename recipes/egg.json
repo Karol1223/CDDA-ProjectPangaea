@@ -2,7 +2,7 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "result": "egg_coelophysis",
+    "result": "egg_clone_coelophysis",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
@@ -15,7 +15,7 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "result": "egg_dilophosaurus",
+    "result": "egg_clone_dilophosaurus",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
@@ -28,7 +28,7 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "result": "egg_tyrannosaurus",
+    "result": "egg_clone_tyrannosaurus",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
