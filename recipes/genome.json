@@ -20,7 +20,7 @@
     "result_eocs": [
       {
         "id": "get_triassic_genome_shard_random",
-        "effect": [ { "u_spawn_item": "triassic_genome_shard_any", "use_item_group": true } ]
+        "effect": [ { "u_spawn_item": "triassic_genome_piece_any", "use_item_group": true } ]
       }
     ]
   },
@@ -40,7 +40,7 @@
     "result_eocs": [
       {
         "id": "get_jurassic_genome_shard_random",
-        "effect": [ { "u_spawn_item": "jurassic_genome_shard_any", "use_item_group": true } ]
+        "effect": [ { "u_spawn_item": "jurassic_genome_piece_any", "use_item_group": true } ]
       }
     ]
   },
@@ -60,7 +60,7 @@
     "result_eocs": [
       {
         "id": "get_cretaceous_genome_shard_random",
-        "effect": [ { "u_spawn_item": "cretaceous_genome_shard_any", "use_item_group": true } ]
+        "effect": [ { "u_spawn_item": "cretaceous_genome_piece_any", "use_item_group": true } ]
       }
     ]
   },
@@ -68,12 +68,12 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "genome_coelophysis",
+    "id_suffix": "fossil",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_GENOMES",
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "autolearn": true,
     "components": [ [ [ "genome_piece_coelophysis", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
     "byproducts": [ [ "genome_canvas", 10 ] ]
   },
@@ -81,12 +81,12 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "genome_dilophosaurus",
+    "id_suffix": "fossil",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_GENOMES",
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "autolearn": true,
     "components": [ [ [ "genome_piece_dilophosaurus", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
     "byproducts": [ [ "genome_canvas", 10 ] ]
   },
@@ -94,12 +94,12 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "genome_tyrannosaurus",
+    "id_suffix": "fossil",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_GENOMES",
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "autolearn": true,
     "components": [ [ [ "genome_piece_tyrannosaurus", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
     "byproducts": [ [ "genome_canvas", 10 ] ]
   },
@@ -107,12 +107,12 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "genome_xiphactinus",
+    "id_suffix": "fossil",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_GENOMES",
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "autolearn": true,
     "components": [ [ [ "genome_piece_xiphactinus", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
     "byproducts": [ [ "genome_canvas", 10 ] ]
   }
