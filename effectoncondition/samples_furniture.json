@@ -23,11 +23,76 @@
   },
   {
     "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_ABSTRACT_TERRAIN_DOUBLE",
+    "condition": {
+      "and": [
+        {
+          "u_query_tile": "line_of_sight",
+          "target_var": { "context_val": "check_terrain" },
+          "message": "Choose a tile to get a sample from.",
+          "range": 1
+        },
+        {
+          "or": [
+            { "map_terrain_id": { "context_val": "terrain_id_1" }, "loc": { "context_val": "check_terrain" } },
+            { "map_terrain_id": { "context_val": "terrain_id_2" }, "loc": { "context_val": "check_terrain" } }
+          ]
+        }
+      ]
+    },
+    "effect": [ { "u_spawn_item": { "context_val": "result_sample" }, "suppress_message": true } ]
+  },
+  {
+    "type": "effect_on_condition",
     "id": "EOC_SAMPLER_JAPANESE_KNOTWEED",
     "effect": [
       {
         "run_eoc_with": "EOC_SAMPLER_ABSTRACT_FURNITURE",
         "variables": { "furniture_id": "f_japanese_knotweed", "result_sample": "tissue_sample_japanese_knotweed" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_BLACK_EYED_SUSAN",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_FURNITURE",
+        "variables": { "furniture_id": "f_black_eyed_susan", "result_sample": "tissue_sample_black_eyed_susan" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_CHAMOMILE",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_FURNITURE",
+        "variables": { "furniture_id": "f_chamomile", "result_sample": "tissue_sample_chamomile" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_SASSAFRAS",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_TERRAIN_DOUBLE",
+        "variables": {
+          "terrain_id_1": "t_tree_sassafras",
+          "terrain_id_2": "t_tree_sassafras_harvested",
+          "result_sample": "tissue_sample_sassafras"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_BEECH",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_TERRAIN_DOUBLE",
+        "variables": { "terrain_id_1": "t_tree_beech", "terrain_id_2": "t_tree_beech_harvested", "result_sample": "tissue_sample_beech" }
       }
     ]
   }

@@ -5,5 +5,33 @@
     "name": { "str": "tissue sample (Reynoutria japonica)", "str_pl": "tissue samples (Reynoutria japonica)" },
     "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Reynoutria japonica, or Japanese knotweed if you prefer English.",
     "copy-from": "tissue_sample_plant_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_black_eyed_susan",
+    "name": { "str": "tissue sample (Rudbeckia hirta)", "str_pl": "tissue samples (Rudbeckia hirta)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Rudbeckia hirta, or black-eyed susan if you prefer English.",
+    "copy-from": "tissue_sample_plant_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_chamomile",
+    "name": { "str": "tissue sample (Chamaemelum nobile)", "str_pl": "tissue samples (Chamaemelum nobile)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Chamaemelum nobile, or chamomile if you prefer English.",
+    "copy-from": "tissue_sample_plant_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_sassafras",
+    "name": { "str": "tissue sample (Sassafras albidum)", "str_pl": "tissue samples (Sassafras albidum)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Sassafras albidum, or just sassafras if you prefer English.",
+    "copy-from": "tissue_sample_plant_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_beech",
+    "name": { "str": "tissue sample (Fagus grandifolia)", "str_pl": "tissue samples (Fagus grandifolia)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Fagus grandifolia, or American beech if you prefer English.",
+    "copy-from": "tissue_sample_plant_base"
   }
 ]

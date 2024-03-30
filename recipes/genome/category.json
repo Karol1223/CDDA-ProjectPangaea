@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_PANGAEA",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_PANGAEA_FOSSIL ANALYSIS",
+      "CSC_PANGAEA_SAMPLE ANALYSIS",
+      "CSC_PANGAEA_GENOME COMPLETION",
+      "CSC_PANGAEA_SEEDS",
+      "CSC_PANGAEA_EGGS"
+    ]
+  }
+]

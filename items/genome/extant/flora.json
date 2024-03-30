@@ -1,0 +1,37 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_japanese_knotweed",
+    "name": { "str": "genome (Reynoutria japonica)", "str_pl": "genomes (Reynoutria japonica)" },
+    "description": "The full genome of Reynoutria japonica, or Japanese knotweed, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_black_eyed_susan",
+    "name": { "str": "genome (Rudbeckia hirta)", "str_pl": "genomes (Rudbeckia hirta)" },
+    "description": "The full genome of Rudbeckia hirta, or black-eyed susan, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_chamomile",
+    "name": { "str": "genome (Chamaemelum nobile)", "str_pl": "genomes (Chamaemelum nobile)" },
+    "description": "The full genome of Chamaemelum nobile, or chamomile, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_sassafras",
+    "name": { "str": "genome (Sassafras albidum)", "str_pl": "genomes (Sassafras albidum)" },
+    "description": "The full genome of Sassafras albidum, or just sassafras, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_beech",
+    "name": { "str": "genome (Fagus grandifolia)", "str_pl": "genomes (Fagus grandifolia)" },
+    "description": "The full genome of Fagus grandifolia, or American beech, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  }
+]
