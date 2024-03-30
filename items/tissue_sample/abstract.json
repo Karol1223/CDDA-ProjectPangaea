@@ -3,16 +3,31 @@
     "type": "COMESTIBLE",
     "comestible_type": "INVALID",
     "abstract": "tissue_sample_animal_base",
-    "name": { "str": "tissue sample (base)", "str_pl": "tissue samples (base)" },
+    "name": { "str": "tissue sample (base animal)", "str_pl": "tissue samples (base animal)" },
     "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.",
     "//": "It lives cozily in its own file because otherwise I'd lose it.",
     "category": "other",
     "volume": "250 ml",
     "weight": "185 g",
     "symbol": "~",
-    "color": "black",
+    "color": "red",
     "spoils_in": "8 hours",
     "looks_like": "meat_scrap",
     "material": [ "flesh" ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "comestible_type": "INVALID",
+    "abstract": "tissue_sample_plant_base",
+    "name": { "str": "tissue sample (base plant)", "str_pl": "tissue samples (base base)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.",
+    "category": "other",
+    "volume": "250 ml",
+    "weight": "185 g",
+    "symbol": "~",
+    "color": "green",
+    "spoils_in": "8 hours",
+    "looks_like": "cattail_stalk",
+    "material": [ "veggy" ]
   }
 ]

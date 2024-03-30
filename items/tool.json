@@ -71,6 +71,14 @@
     "longest_side": "22 cm",
     "volume": "750 ml",
     "weight": "2721 g",
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Sample",
+        "description": "Obtain environmental samples.",
+        "effect_on_conditions": [ "EOC_SAMPLER_FLORA" ]
+      }
+    ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]

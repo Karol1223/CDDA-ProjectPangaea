@@ -1,0 +1,34 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_FLORA",
+    "effect": [ { "run_eocs": [ "EOC_SAMPLER_JAPANESE_KNOTWEED" ] } ],
+    "false_effect": [ { "u_message": "Nothing to sample here." } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_ABSTRACT_FURNITURE",
+    "condition": {
+      "and": [
+        {
+          "u_query_tile": "line_of_sight",
+          "target_var": { "context_val": "check_terrain" },
+          "message": "Choose a tile to get a sample from.",
+          "range": 1
+        },
+        { "map_furniture_id": { "context_val": "furniture_id" }, "loc": { "context_val": "check_terrain" } }
+      ]
+    },
+    "effect": [ { "u_spawn_item": { "context_val": "result_sample" }, "suppress_message": true } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_JAPANESE_KNOTWEED",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_FURNITURE",
+        "variables": { "furniture_id": "f_japanese_knotweed", "result_sample": "tissue_sample_japanese_knotweed" }
+      }
+    ]
+  }
+]

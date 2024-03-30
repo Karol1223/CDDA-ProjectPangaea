@@ -1,0 +1,9 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_japanese_knotweed",
+    "name": { "str": "tissue sample (Reynoutria japonica)", "str_pl": "tissue samples (Reynoutria japonica)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Reynoutria japonica, or Japanese knotweed if you prefer English.",
+    "copy-from": "tissue_sample_plant_base"
+  }
+]
