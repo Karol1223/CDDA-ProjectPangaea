@@ -8,8 +8,8 @@
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "tools": [ [ [ "syringe", -1 ] ], [ [ "genome_coelophysis", -1 ] ] ],
-    "components": [ [ [ "egg_bird_unfert", 1 ] ] ]
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_coelophysis", -1 ] ] ],
+    "components": [ [ [ "egg_bird_unfert", 1 ], [ "egg_chicken", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -20,7 +20,7 @@
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "tools": [ [ [ "syringe", -1 ] ], [ [ "genome_dilophosaurus", -1 ] ] ],
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_dilophosaurus", -1 ] ] ],
     "components": [ [ [ "egg_goose_canadian", 1 ] ] ]
   },
   {
@@ -32,7 +32,7 @@
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "tools": [ [ [ "syringe", -1 ] ], [ [ "genome_tyrannosaurus", -1 ] ] ],
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_tyrannosaurus", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
   },
   {
@@ -44,7 +44,7 @@
     "skill_used": "genetics",
     "difficulty": 6,
     "time": "5 m",
-    "tools": [ [ [ "syringe", -1 ] ], [ [ "genome_xiphactinus", -1 ] ] ],
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_xiphactinus", -1 ] ] ],
     "components": [ [ [ "roe_saltwater", 1, "LIST" ] ] ]
   }
 ]

@@ -23,7 +23,7 @@
     "type": "TOOL",
     "id": "DNA_analyzer",
     "name": { "str": "DNA analyzer" },
-    "description": "Your inner child giggles like crazy because you've gotten your hands on a machine that's very much classified technology.  Needs to be placed and plugged into a power source to use.",
+    "description": "Your inner child giggles like crazy because you've gotten your hands on a machine that's very much classified technology.  Needs to be plugged into a power source to use.",
     "looks_like": "f_hydraulic_press",
     "charges_per_use": 50,
     "symbol": "8",
@@ -41,6 +41,22 @@
       },
       { "type": "link_up", "cable_length": 5, "charge_rate": "140 W" }
     ],
+    "flags": [ "ELECTRONIC", "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "type": "TOOL",
+    "id": "gaia_nest",
+    "name": { "str": "Gaia nest" },
+    "description": "A peculiar machination equipped with several drills and syringes, as well as a pedestal for an egg in the center.  Needs to be plugged into a power source to use.",
+    "looks_like": "f_hydraulic_press",
+    "charges_per_use": 50,
+    "symbol": "8",
+    "color": "green",
+    "material": [ "steel" ],
+    "longest_side": "150 cm",
+    "volume": "400 L",
+    "weight": "145 kg",
+    "use_action": [ { "type": "link_up", "cable_length": 5, "charge_rate": "140 W" } ],
     "flags": [ "ELECTRONIC", "ALLOWS_REMOTE_USE" ]
   },
   {
