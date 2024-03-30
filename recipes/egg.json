@@ -36,6 +36,6 @@
     "time": "5 m",
     "autolearn": true,
     "tools": [ [ [ "syringe", -1 ] ], [ [ "genome_tyrannosaurus", -1 ] ] ],
-    "components": [ [ [ "egg_goose_canadian", 1 ] ] ]
+    "components": [ [ [ "egg_ostrich", 1 ] ] ]
   }
 ]

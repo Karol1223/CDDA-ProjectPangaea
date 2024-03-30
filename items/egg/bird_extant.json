@@ -1,0 +1,25 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_ostrich",
+    "name": { "str": "ostrich egg" },
+    "description": "A huge egg laid by an ostrich.",
+    "copy-from": "egg_bird",
+    "weight": "1400 g",
+    "volume": "1540 ml",
+    "calories": 2002,
+    "rot_spawn": "GROUP_egg_ostrich",
+    "vitamins": [ [ "calcium", 76 ], [ "iron", 101 ] ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_ostrich_prepared",
+    "name": { "str": "cup of prepared ostrich egg", "str_pl": "cups of prepared ostrich egg" },
+    "description": "A cup of soft-boiled ostrich egg, prepared for use in cooking recipes.",
+    "copy-from": "boiled_egg",
+    "weight": "230 g",
+    "volume": "250 ml",
+    "calories": 333,
+    "vitamins": [ [ "calcium", 12 ], [ "iron", 16 ] ]
+  }
+]

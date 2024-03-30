@@ -1,6 +1,11 @@
 [
   {
     "type": "MONSTER_FACTION",
+    "name": "ostrich",
+    "base_faction": "animal"
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "predator_small",
     "base_faction": "animal",
     "neutral": [ "animal", "fish", "predator_large", "predator_large_juv", "fox" ],

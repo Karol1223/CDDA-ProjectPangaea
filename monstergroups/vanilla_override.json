@@ -1,0 +1,8 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_DOMESTIC",
+    "is_animal": true,
+    "monsters": [ { "monster": "mon_ostrich", "weight": 50, "cost_multiplier": 25, "pack_size": [ 2, 6 ] } ]
+  }
+]

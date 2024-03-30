@@ -1,0 +1,18 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_ostrich_prepared",
+    "result_mult": 6,
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "50 m",
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "DRILL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 5, "LIST" ] ], [ [ "water", -1 ], [ "water_clean", -1 ] ] ],
+    "components": [ [ [ "egg_ostrich", 1 ] ] ]
+  }
+]

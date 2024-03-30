@@ -22,7 +22,7 @@
     "id": "egg_clone_tyrannosaurus",
     "name": { "str": "Tyrannosaurus rex egg" },
     "description": "A bird egg implanted with a Tyrannosaurus rex embryo.",
-    "copy-from": "egg_goose_canadian",
+    "copy-from": "egg_ostrich",
     "rot_spawn": "GROUP_egg_clone_tyrannosaurus",
     "rot_spawn_chance": 100
   }
