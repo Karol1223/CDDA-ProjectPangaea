@@ -102,5 +102,18 @@
     "autolearn": true,
     "components": [ [ [ "genome_piece_tyrannosaurus", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
     "byproducts": [ [ "genome_canvas", 10 ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_xiphactinus",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_GENOMES",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "genome_piece_xiphactinus", 10 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "byproducts": [ [ "genome_canvas", 10 ] ]
   }
 ]

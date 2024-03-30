@@ -12,6 +12,6 @@
   {
     "id": "cretaceous_genome_shard_any",
     "type": "item_group",
-    "items": [ { "item": "genome_piece_tyrannosaurus" } ]
+    "items": [ { "item": "genome_piece_tyrannosaurus" }, { "item": "genome_piece_xiphactinus" } ]
   }
 ]

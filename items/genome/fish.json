@@ -1,0 +1,16 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_xiphactinus",
+    "name": { "str": "DNA sequence (Xiphactinus audax)", "str_pl": "DNA sequences (Xiphactinus audax)" },
+    "description": "Pieces of genetic coding from the genome of Xiphactinus audax implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_xiphactinus",
+    "name": { "str": "genome (Xiphactinus audax)", "str_pl": "genomes (Xiphactinus audax)" },
+    "description": "The full genome of Xiphactinus audax implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  }
+]

@@ -74,5 +74,28 @@
     "base_faction": "predator_medium_juv",
     "friendly": [ "dilophosaurus" ],
     "neutral": [ "predator_medium_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "predator_medium_aquatic",
+    "base_faction": "aquatic_predator",
+    "by_mood": [
+      "fish",
+      "kraken",
+      "water_scorpion",
+      "beetle_diving",
+      "strider",
+      "crayfish",
+      "frog",
+      "razorclaw",
+      "fish_mutant_passive",
+      "aquatic_predator"
+    ],
+    "hate": [ "predator_medium_aquatic" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "xiphactinus",
+    "base_faction": "predator_medium_aquatic"
   }
 ]

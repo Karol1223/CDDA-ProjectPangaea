@@ -37,5 +37,18 @@
     "autolearn": true,
     "tools": [ [ [ "syringe", -1 ] ], [ [ "genome_tyrannosaurus", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_xiphactinus",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "autolearn": true,
+    "tools": [ [ [ "syringe", -1 ] ], [ [ "genome_xiphactinus", -1 ] ] ],
+    "components": [ [ [ "roe_saltwater", 1, "LIST" ] ] ]
   }
 ]

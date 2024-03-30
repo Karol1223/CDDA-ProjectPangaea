@@ -3,5 +3,24 @@
     "id": "eggs_bird",
     "type": "requirement",
     "extend": { "components": [ [ [ "egg_ostrich_prepared", 1 ] ] ] }
+  },
+  {
+    "id": "roe_saltwater",
+    "type": "requirement",
+    "//": "All saltwater fish roe.",
+    "components": [
+      [
+        [ "egg_cod", 1 ],
+        [ "egg_haddock", 1 ],
+        [ "egg_bluefin_tuna", 1 ],
+        [ "egg_halibut", 1 ],
+        [ "egg_pollock", 1 ],
+        [ "egg_flounder", 1 ],
+        [ "egg_mackerel", 1 ],
+        [ "egg_bluefish", 1 ],
+        [ "egg_blackfish", 1 ],
+        [ "egg_porgy", 1 ]
+      ]
+    ]
   }
 ]

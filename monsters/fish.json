@@ -1,0 +1,46 @@
+[
+  {
+    "type": "MONSTER",
+    "id": "mon_clone_xiphactinus",
+    "name": { "str_sp": "Xiphactinus audax" },
+    "description": "A giant fish from the Cretaceous period resembling an aberrant, fanged version of a tarpon.  It rivals the size of a great white shark, so perhaps it is wise to give it a wide berth.",
+    "default_faction": "xiphactinus",
+    "bodytype": "fish",
+    "species": "FISH",
+    "volume": "500 L",
+    "weight": "500 kg",
+    "hp": 225,
+    "speed": 275,
+    "attack_cost": 175,
+    "material": [ "flesh" ],
+    "symbol": "X",
+    "color": "blue",
+    "aggression": 45,
+    "morale": 80,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_damage": [ { "damage_type": "cut", "amount": 5 } ],
+    "families": [ "prof_intro_biology", "prof_physiology" ],
+    "harvest": "fish_large",
+    "zombify_into": "mon_meat_cocoon_large",
+    "grab_strength": 45,
+    "stomach_size": 45000,
+    "scents_tracked": [ "sc_human", "sc_fetid" ],
+    "special_attacks": [
+      { "id": "teeth_grab_medium", "condition": { "math": [ "n_val('volume')", "<=", "70000" ] } },
+      { "id": "teeth_bleed_medium" },
+      [ "EAT_CARRION", 1 ]
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "BASHES", "PUSH_MON", "SWIMS", "AQUATIC" ],
+    "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ],
+    "armor": { "bash": 3, "cut": 2 }
+  },
+  {
+    "id": "mon_clone_xiphactinus_fry",
+    "type": "MONSTER",
+    "copy-from": "mon_fry",
+    "name": { "str_sp": "Xiphactinus audax fry" },
+    "upgrades": { "age_grow": 15, "into": "mon_clone_xiphactinus" }
+  }
+]
