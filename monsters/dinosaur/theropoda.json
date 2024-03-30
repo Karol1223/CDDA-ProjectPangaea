@@ -24,6 +24,7 @@
     "dodge": 5,
     "families": [ "prof_intro_biology", "prof_physiology" ],
     "harvest": "dino_leather",
+    "zombify_into": "mon_meat_cocoon_tiny",
     "stomach_size": 300,
     "special_attacks": [ { "type": "bite", "cooldown": 3 }, [ "scratch", 5 ], [ "EAT_CARRION", 1 ] ],
     "flags": [ "SMELLS", "SMALL_HIDER", "CORNERED_FIGHTER" ],
