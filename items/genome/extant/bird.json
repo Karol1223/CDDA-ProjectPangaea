@@ -1,0 +1,9 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_chicken",
+    "name": { "str": "genome (Gallus gallus)", "str_pl": "genomes (Gallus gallus)" },
+    "description": "The full genome of Gallus gallus, or domestic chicken, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  }
+]

@@ -46,5 +46,17 @@
     "time": "5 m",
     "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_xiphactinus", -1 ] ] ],
     "components": [ [ [ "roe_saltwater", 1, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_chicken",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_chicken", -1 ] ] ],
+    "components": [ [ [ "egg_bird_unfert", 1 ], [ "egg_chicken", 1 ] ] ]
   }
 ]

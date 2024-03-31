@@ -1,0 +1,9 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_xiphactinus",
+    "name": { "str": "tissue sample (Xiphactinus audax)", "str_pl": "tissue samples (Xiphactinus audax)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Xiphactinus audax.",
+    "copy-from": "tissue_sample_animal_base"
+  }
+]

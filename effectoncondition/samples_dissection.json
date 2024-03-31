@@ -1,16 +1,58 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "EOC_event_test",
-    "eoc_type": "EVENT",
-    "required_event": "character_butchered_corpse",
+    "id": "EOC_SAMPLER_DISSECTION",
     "condition": {
       "and": [
-        { "compare_string": [ "mon_chicken", { "context_val": "monster_id" } ] },
-        { "compare_string": [ "ACT_DISSECT", { "context_val": "butcher_type" } ] },
+        { "compare_string": [ { "context_val": "monster_id" }, { "context_val": "butchered_mon" } ] },
         { "u_has_item": "sampler" }
       ]
     },
-    "effect": [ { "u_spawn_item": "tissue_sample_chicken" } ]
+    "effect": [ { "u_spawn_item": { "context_val": "item_id" } } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_DISSECTION_EVENT",
+    "eoc_type": "EVENT",
+    "required_event": "character_butchered_corpse",
+    "condition": { "compare_string": [ "ACT_DISSECT", { "context_val": "butcher_type" } ] },
+    "effect": [
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_chicken", "item_id": "tissue_sample_chicken" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_chicken_chick", "item_id": "tissue_sample_chicken" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_coelophysis", "item_id": "tissue_sample_coelophysis" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_coelophysis_juv", "item_id": "tissue_sample_coelophysis" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_dilophosaurus", "item_id": "tissue_sample_dilophosaurus" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_dilophosaurus_juv", "item_id": "tissue_sample_dilophosaurus" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_tyrannosaurus", "item_id": "tissue_sample_tyrannosaurus" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_tyrannosaurus_juv", "item_id": "tissue_sample_tyrannosaurus" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_xiphactinus", "item_id": "tissue_sample_xiphactinus" }
+      }
+    ]
   }
 ]

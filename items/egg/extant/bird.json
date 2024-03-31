@@ -21,5 +21,13 @@
     "volume": "250 ml",
     "calories": 333,
     "vitamins": [ [ "calcium", 12 ], [ "iron", 16 ] ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_clone_chicken",
+    "name": { "str": "cloned chicken egg" },
+    "description": "A bird egg created in the Gaia Nest.  It is guaranteed to hatch.",
+    "copy-from": "egg_chicken",
+    "rot_spawn_chance": 100
   }
 ]

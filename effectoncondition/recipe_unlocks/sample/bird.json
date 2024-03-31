@@ -1,0 +1,16 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_CHICKEN",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x2",
+        "variables": {
+          "item_to_analyze": "tissue_sample_chicken",
+          "recipe_to_give_1": "genome_chicken",
+          "recipe_to_give_2": "egg_clone_chicken"
+        }
+      }
+    ]
+  }
+]
