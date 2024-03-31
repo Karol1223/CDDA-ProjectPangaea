@@ -14,10 +14,14 @@
           "EOC_ANALYZER_TYRANNOSAURUS_FOSSIL",
           "EOC_ANALYZER_XIPHACTINUS_FOSSIL",
           "EOC_ANALYZER_JAPANESE_KNOTWEED",
+          "EOC_ANALYZER_JAPANESE_KNOTWEED_2",
           "EOC_ANALYZER_BLACK_EYED_SUSAN",
           "EOC_ANALYZER_CHAMOMILE",
+          "EOC_ANALYZER_CHAMOMILE_2",
           "EOC_ANALYZER_SASSAFRAS",
-          "EOC_ANALYZER_BEECH"
+          "EOC_ANALYZER_SASSAFRAS_2",
+          "EOC_ANALYZER_BEECH",
+          "EOC_ANALYZER_BEECH_2"
         ]
       }
     ]
@@ -31,7 +35,7 @@
         { "not": { "u_know_recipe": { "context_val": "recipe_to_give" } } }
       ]
     },
-    "effect": [ { "u_learn_recipe": { "context_val": "recipe_to_give" } } ]
+    "effect": [ { "u_learn_recipe": { "context_val": "recipe_to_give" } }, { "u_message": "learned <context_val:recipe_to_give>" } ]
   },
   {
     "type": "effect_on_condition",
@@ -49,47 +53,8 @@
     },
     "effect": [
       { "u_learn_recipe": { "context_val": "recipe_to_give_1" } },
-      { "u_learn_recipe": { "context_val": "recipe_to_give_2" } }
+      { "u_learn_recipe": { "context_val": "recipe_to_give_2" } },
+      { "u_message": "learned <context_val:recipe_to_give_1> and <context_val:recipe_to_give_2>" }
     ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_ANALYZER_ABSTRACT_2x2",
-    "condition": {
-      "and": [
-        {
-          "or": [
-            { "not": { "u_has_item": { "context_val": "item_to_analyze_1" } } },
-            { "not": { "u_has_item": { "context_val": "item_to_analyze_2" } } }
-          ]
-        },
-        {
-          "or": [
-            { "not": { "u_know_recipe": { "context_val": "recipe_to_give_1" } } },
-            { "not": { "u_know_recipe": { "context_val": "recipe_to_give_2" } } }
-          ]
-        }
-      ]
-    },
-    "effect": [
-      { "u_learn_recipe": { "context_val": "recipe_to_give_1" } },
-      { "u_learn_recipe": { "context_val": "recipe_to_give_2" } }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_ANALYZER_ABSTRACT_2x1",
-    "condition": {
-      "and": [
-        {
-          "or": [
-            { "not": { "u_has_item": { "context_val": "item_to_analyze_1" } } },
-            { "not": { "u_has_item": { "context_val": "item_to_analyze_2" } } }
-          ]
-        },
-        { "not": { "u_know_recipe": { "context_val": "recipe_to_give" } } }
-      ]
-    },
-    "effect": [ { "u_learn_recipe": { "context_val": "recipe_to_give" } } ]
   }
 ]
