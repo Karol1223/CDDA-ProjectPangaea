@@ -26,7 +26,11 @@
           "EOC_ANALYZER_SASSAFRAS_2",
           "EOC_ANALYZER_BEECH",
           "EOC_ANALYZER_BEECH_2",
-          "EOC_ANALYZER_CHICKEN"
+          "EOC_ANALYZER_CHICKEN",
+          "EOC_ANALYZER_GOOSE_CANADIAN",
+          "EOC_ANALYZER_OSTRICH",
+          "EOC_ANALYZER_SALMON",
+          "EOC_ANALYZER_BLUEFIN_TUNA"
         ]
       }
     ]
@@ -53,8 +57,8 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_GIVE_THE_RECIPES",
-    "//": "u_learn_recipe won't do anything if avatar already knows the recipe, no reason to use u_know_recipe",
-    "//": "but u_learn_recipe with empty string (and undefined variables are assumed to be empty strings) will cause an error, so check variable is valid first, then give the recipe",
+    "//1": "u_learn_recipe won't do anything if avatar already knows the recipe, no reason to use u_know_recipe",
+    "//2": "but u_learn_recipe with empty string (and undefined variables are assumed to be empty strings) will cause an error, so check variable is valid first, then give the recipe",
     "effect": [
       {
         "if": { "compare_string": [ "", { "context_val": "recipe_to_give_1" } ] },

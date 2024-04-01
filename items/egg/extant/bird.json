@@ -26,8 +26,24 @@
     "type": "COMESTIBLE",
     "id": "egg_clone_chicken",
     "name": { "str": "cloned chicken egg" },
-    "description": "A bird egg created in the Gaia Nest.  It is guaranteed to hatch.",
+    "description": "A bird egg implanted with a domestic chicken embryo.  It is guaranteed to hatch.",
     "copy-from": "egg_chicken",
+    "rot_spawn_chance": 100
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_clone_goose_canadian",
+    "name": { "str": "cloned Canada goose egg" },
+    "description": "A bird egg implanted with a Canada goose embryo.  It is guaranteed to hatch.",
+    "copy-from": "egg_goose_canadian",
+    "rot_spawn_chance": 100
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_clone_ostrich",
+    "name": { "str": "cloned ostrich egg" },
+    "description": "A bird egg implanted with an African ostrich embryo.  It is guaranteed to hatch.",
+    "copy-from": "egg_ostrich",
     "rot_spawn_chance": 100
   }
 ]

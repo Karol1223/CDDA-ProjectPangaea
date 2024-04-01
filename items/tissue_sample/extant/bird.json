@@ -2,8 +2,22 @@
   {
     "type": "COMESTIBLE",
     "id": "tissue_sample_chicken",
-    "name": { "str": "tissue sample (Gallus gallus)", "str_pl": "tissue samples (Gallus gallus)" },
-    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Gallus gallus, or a chicken if you prefer English.",
+    "name": { "str": "tissue sample (Gallus gallus domesticus)", "str_pl": "tissue samples (Gallus gallus domesticus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Gallus gallus domesticus, or a chicken if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_goose_canadian",
+    "name": { "str": "tissue sample (Branta canadensis)", "str_pl": "tissue samples (Branta canadensis)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Branta canadensis, or a Canada goose if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_ostrich",
+    "name": { "str": "tissue sample (Struthio camelus)", "str_pl": "tissue samples (Struthio camelus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Struthio camelus, or an African ostrich if you prefer English.",
     "copy-from": "tissue_sample_animal_base"
   }
 ]

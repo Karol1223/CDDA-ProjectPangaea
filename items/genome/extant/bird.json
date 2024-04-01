@@ -2,8 +2,22 @@
   {
     "type": "GENERIC",
     "id": "genome_chicken",
-    "name": { "str": "genome (Gallus gallus)", "str_pl": "genomes (Gallus gallus)" },
-    "description": "The full genome of Gallus gallus, or domestic chicken, implanted on a genome canvas.",
+    "name": { "str": "genome (Gallus gallus domesticus)", "str_pl": "genomes (Gallus gallus domesticus)" },
+    "description": "The full genome of Gallus gallus domesticus, or a domestic chicken, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_goose_canadian",
+    "name": { "str": "genome (Branta canadensis)", "str_pl": "genomes (Branta canadensis)" },
+    "description": "The full genome of Branta canadensis, or a Canada goose, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_ostrich",
+    "name": { "str": "genome (Struthio camelus)", "str_pl": "genomes (Struthio camelus)" },
+    "description": "The full genome of Struthio camelus, or an African ostrich, implanted on a genome canvas.",
     "copy-from": "genome_canvas"
   }
 ]

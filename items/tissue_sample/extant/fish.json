@@ -1,0 +1,16 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_salmon",
+    "name": { "str": "tissue sample (Salmo salar)", "str_pl": "tissue samples (Salmo salar)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Salmo salar, or an Atlantic salmon if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_bluefin_tuna",
+    "name": { "str": "tissue sample (Thunnus thynnus)", "str_pl": "tissue samples (Thunnus thynnus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Thunnus thynnus, or an Atlantic bluefin tuna if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  }
+]

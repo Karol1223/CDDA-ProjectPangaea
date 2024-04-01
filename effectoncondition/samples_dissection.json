@@ -27,6 +27,30 @@
       },
       {
         "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_goose_canadian", "item_id": "tissue_sample_goose_canadian" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_goose_canadian_chick", "item_id": "tissue_sample_goose_canadian" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_ostrich", "item_id": "tissue_sample_ostrich" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_ostrich_juv", "item_id": "tissue_sample_ostrich" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_fish_salmon", "item_id": "tissue_sample_salmon" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_fish_bluefin_tuna", "item_id": "tissue_sample_bluefin_tuna" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
         "variables": { "butchered_mon": "mon_clone_coelophysis", "item_id": "tissue_sample_coelophysis" }
       },
       {
