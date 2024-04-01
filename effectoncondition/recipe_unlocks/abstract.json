@@ -39,12 +39,12 @@
     "type": "effect_on_condition",
     "id": "EOC_ANALYZER_ABSTRACT",
     "//1": "first store the name of beta talker (item that u_run_inv_eocs found) into `found_item_name`",
-    "//2": "then store name of the item we want to check in `item_to_check`. We will compare them in the next EoC",
+    "//2": "then store name of the item we want to check in `item_to_analyze`. We will compare them in the next EoC",
     "//3": "all because there is no way to return the id of beta talker on demand",
     "effect": [
       { "set_string_var": "<npc_name>", "target_var": { "context_val": "found_item_name" }, "parse_tags": true },
       {
-        "set_string_var": "<item_name:<context_val:item_to_check>>",
+        "set_string_var": "<item_name:<context_val:item_to_analyze>>",
         "target_var": { "context_val": "required_item_name" },
         "parse_tags": true
       },
