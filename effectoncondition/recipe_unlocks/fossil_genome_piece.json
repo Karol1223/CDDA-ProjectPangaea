@@ -4,8 +4,8 @@
     "id": "EOC_ANALYZER_TRIASSIC",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x1",
-        "variables": { "item_to_analyze": "fossil_triassic", "recipe_to_give": "genome_triassic_random" }
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "fossil_triassic", "recipe_to_give_1": "genome_triassic_random" }
       }
     ]
   },
@@ -14,8 +14,8 @@
     "id": "EOC_ANALYZER_JURASSIC",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x1",
-        "variables": { "item_to_analyze": "fossil_jurassic", "recipe_to_give": "genome_jurassic_random" }
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "fossil_jurassic", "recipe_to_give_1": "genome_jurassic_random" }
       }
     ]
   },
@@ -24,8 +24,8 @@
     "id": "EOC_ANALYZER_CRETACEOUS",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x1",
-        "variables": { "item_to_analyze": "fossil_cretaceous", "recipe_to_give": "genome_cretaceous_random" }
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "fossil_cretaceous", "recipe_to_give_1": "genome_cretaceous_random" }
       }
     ]
   },
@@ -34,7 +34,7 @@
     "id": "EOC_ANALYZER_COELOPHYSIS_FOSSIL",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x2",
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "genome_piece_coelophysis",
           "recipe_to_give_1": "genome_coelophysis_fossil",
@@ -48,7 +48,7 @@
     "id": "EOC_ANALYZER_DILOPHOSAURUS_FOSSIL",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x2",
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "genome_piece_dilophosaurus",
           "recipe_to_give_1": "genome_dilophosaurus_fossil",
@@ -62,7 +62,7 @@
     "id": "EOC_ANALYZER_TYRANNOSAURUS_FOSSIL",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x2",
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "genome_piece_tyrannosaurus",
           "recipe_to_give_1": "genome_tyrannosaurus_fossil",
@@ -76,7 +76,7 @@
     "id": "EOC_ANALYZER_XIPHACTINUS_FOSSIL",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT_1x2",
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "genome_piece_xiphactinus",
           "recipe_to_give_1": "genome_xiphactinus_fossil",
