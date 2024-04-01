@@ -33,7 +33,7 @@
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
-        "variables": { "item_to_analyze": "tissue_sample_black_eyed_susan", "recipe_to_give": "genome_black_eyed_susan" }
+        "variables": { "item_to_analyze": "tissue_sample_black_eyed_susan", "recipe_to_give_1": "genome_black_eyed_susan" }
       }
     ]
   },
@@ -67,7 +67,7 @@
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
-        "variables": { "item_to_analyze": "sassafras_root", "recipe_to_give": "genome_sassafras" }
+        "variables": { "item_to_analyze": "sassafras_root", "recipe_to_give_1": "genome_sassafras" }
       }
     ]
   },
@@ -77,7 +77,7 @@
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
-        "variables": { "item_to_analyze": "tissue_sample_sassafras", "recipe_to_give": "genome_sassafras" }
+        "variables": { "item_to_analyze": "tissue_sample_sassafras", "recipe_to_give_1": "genome_sassafras" }
       }
     ]
   },
@@ -87,7 +87,7 @@
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
-        "variables": { "item_to_analyze": "beech_nuts", "recipe_to_give": "genome_beech" }
+        "variables": { "item_to_analyze": "beech_nuts", "recipe_to_give_1": "genome_beech" }
       }
     ]
   },
@@ -97,7 +97,7 @@
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
-        "variables": { "item_to_analyze": "tissue_sample_beech", "recipe_to_give": "genome_beech" }
+        "variables": { "item_to_analyze": "tissue_sample_beech", "recipe_to_give_1": "genome_beech" }
       }
     ]
   }
