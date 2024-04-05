@@ -1,0 +1,20 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": [ "pangaea_FIELD_1", "pangaea_FIELD_2", "pangaea_FIELD_3", "pangaea_FIELD_4" ],
+    "name": "FIELD",
+    "sym": "+",
+    "color": "i_green",
+    "see_cost": 5,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "pangaea_FIELD_1_roof", "pangaea_FIELD_2_roof", "pangaea_FIELD_3_roof", "pangaea_FIELD_4_roof" ],
+    "name": "FIELD roof",
+    "sym": "+",
+    "color": "i_green",
+    "see_cost": 5,
+    "flags": [ "RISK_HIGH" ]
+  }
+]

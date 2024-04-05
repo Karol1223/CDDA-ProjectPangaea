@@ -1,0 +1,58 @@
+[
+  {
+    "type": "palette",
+    "id": "palette_pangaea_FIELD",
+    "terrain": {
+      ".": "t_region_groundcover_urban",
+      ",": "t_linoleum_white",
+      "#": "t_concrete_wall",
+      "D": "t_door_metal_c",
+      "d": "t_door_lab_c",
+      "[": "t_wall_glass",
+      "x": "t_pavement",
+      "y": "t_pavement_y",
+      "w": "t_window_bars",
+      "-": "t_sidewalk",
+      "^": "t_stairs_down",
+      "1": "t_gutter_downspout",
+      "!": [ [ "t_region_groundcover_urban", 150 ], [ "t_region_tree", 50 ] ]
+    },
+    "furniture": {
+      "b": "f_metal_bench",
+      "T": "f_rack_coat",
+      "h": "f_chair",
+      "_": "f_desk",
+      "s": "f_sink",
+      "Y": "f_indoor_plant",
+      "B": "f_bookcase",
+      "l": "f_locker",
+      "z": "f_table",
+      "S": "f_shower",
+      "c": "f_sofa",
+      "e": "f_coffee_table",
+      "f": "f_fridge",
+      "/": "f_counter",
+      "H": "f_warehouse_shelf",
+      "F": "f_sample_freezer",
+      "u": "f_utility_shelf",
+      "M": "f_machinery_light",
+      "C": "f_centrifuge",
+      "V": "f_console",
+      "O": "f_autoclave",
+      ".": [
+        [ "f_null", 650 ],
+        "f_boulder_large",
+        [ "f_boulder_medium", 2 ],
+        [ "f_boulder_small", 4 ],
+        [ "f_region_flower", 30 ],
+        [ "f_region_weed", 20 ]
+      ]
+    },
+    "vehicles": {
+      "m": { "vehicle": "swivel_chair", "rotation": 180, "chance": 100 },
+      "v": { "vehicle": "swivel_chair", "rotation": 270, "chance": 100 },
+      "n": { "vehicle": "swivel_chair", "rotation": 90, "chance": 100 }
+    },
+    "toilets": { "t": {  } }
+  }
+]
