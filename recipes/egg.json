@@ -14,6 +14,18 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_velociraptor",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_velociraptor", -1 ] ] ],
+    "components": [ [ [ "egg_bird_unfert", 1 ], [ "egg_chicken", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "egg_clone_dilophosaurus",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
@@ -34,6 +46,54 @@
     "time": "5 m",
     "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_tyrannosaurus", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_triceratops",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_triceratops", -1 ] ] ],
+    "components": [ [ [ "egg_ostrich", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_stegosaurus",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_stegosaurus", -1 ] ] ],
+    "components": [ [ [ "egg_ostrich", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_brachiosaurus",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_brachiosaurus", -1 ] ] ],
+    "components": [ [ [ "egg_ostrich", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_pteranodon",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_pteranodon", -1 ] ] ],
+    "components": [ [ [ "egg_goose_canadian", 1 ] ] ]
   },
   {
     "type": "recipe",

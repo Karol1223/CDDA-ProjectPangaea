@@ -1,0 +1,9 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_pteranodon",
+    "name": { "str": "tissue sample (Pteranodon longiceps)", "str_pl": "tissue samples (Pteranodon longiceps)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Pteranodon longiceps.",
+    "copy-from": "tissue_sample_animal_base"
+  }
+]

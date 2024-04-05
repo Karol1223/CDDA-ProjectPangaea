@@ -7,11 +7,22 @@
   {
     "id": "jurassic_genome_piece_any",
     "type": "item_group",
-    "items": [ { "item": "genome_piece_dilophosaurus" } ]
+    "items": [
+      { "item": "genome_piece_coelophysis" },
+      { "item": "genome_piece_dilophosaurus" },
+      { "item": "genome_piece_stegosaurus" },
+      { "item": "genome_piece_brachiosaurus" }
+    ]
   },
   {
     "id": "cretaceous_genome_piece_any",
     "type": "item_group",
-    "items": [ { "item": "genome_piece_tyrannosaurus" }, { "item": "genome_piece_xiphactinus" } ]
+    "items": [
+      { "item": "genome_piece_velociraptor" },
+      { "item": "genome_piece_tyrannosaurus" },
+      { "item": "genome_piece_triceratops" },
+      { "item": "genome_piece_pteranodon" },
+      { "item": "genome_piece_xiphactinus" }
+    ]
   }
 ]

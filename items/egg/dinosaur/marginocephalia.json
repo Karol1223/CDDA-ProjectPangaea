@@ -1,0 +1,11 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_clone_triceratops",
+    "name": { "str": "Triceratops horridus egg" },
+    "description": "A bird egg implanted with a Triceratops horridus embryo.",
+    "copy-from": "egg_ostrich",
+    "rot_spawn": "GROUP_egg_clone_coelophysis",
+    "rot_spawn_chance": 100
+  }
+]

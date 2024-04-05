@@ -15,6 +15,20 @@
   },
   {
     "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_VELOCIRAPTOR_SAMPLE",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "tissue_sample_velociraptor",
+          "recipe_to_give_1": "genome_velociraptor_sample",
+          "recipe_to_give_2": "egg_clone_velociraptor"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
     "id": "EOC_ANALYZER_DILOPHOSAURUS_SAMPLE",
     "effect": [
       {
@@ -37,6 +51,62 @@
           "item_to_analyze": "tissue_sample_tyrannosaurus",
           "recipe_to_give_1": "genome_tyrannosaurus_sample",
           "recipe_to_give_2": "egg_clone_tyrannosaurus"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_TRICERATOPS_SAMPLE",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "tissue_sample_triceratops",
+          "recipe_to_give_1": "genome_triceratops_sample",
+          "recipe_to_give_2": "egg_clone_triceratops"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_STEGOSAURUS_SAMPLE",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "tissue_sample_stegosaurus",
+          "recipe_to_give_1": "genome_stegosaurus_sample",
+          "recipe_to_give_2": "egg_clone_stegosaurus"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_BRACHIOSAURUS_SAMPLE",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "tissue_sample_brachiosaurus",
+          "recipe_to_give_1": "genome_brachiosaurus_sample",
+          "recipe_to_give_2": "egg_clone_brachiosaurus"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_PTERANODON_SAMPLE",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "tissue_sample_pteranodon",
+          "recipe_to_give_1": "genome_pteranodon_sample",
+          "recipe_to_give_2": "egg_clone_pteranodon"
         }
       }
     ]

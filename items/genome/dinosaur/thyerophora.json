@@ -1,0 +1,16 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_stegosaurus",
+    "name": { "str": "DNA sequence (Stegosaurus stenops)", "str_pl": "DNA sequences (Stegosaurus stenops)" },
+    "description": "Pieces of genetic coding from the genome of Stegosaurus stenops implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_stegosaurus",
+    "name": { "str": "genome (Stegosaurus stenops)", "str_pl": "genomes (Stegosaurus stenops)" },
+    "description": "The full genome of Stegosaurus stenops implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_triceratops",
+    "name": { "str": "DNA sequence (Triceratops horridus)", "str_pl": "DNA sequences (Triceratops horridus)" },
+    "description": "Pieces of genetic coding from the genome of Triceratops horridus implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_triceratops",
+    "name": { "str": "genome (Triceratops horridus)", "str_pl": "genomes (Triceratops horridus)" },
+    "description": "The full genome of Triceratops horridus implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  }
+]

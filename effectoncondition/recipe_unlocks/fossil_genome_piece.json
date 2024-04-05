@@ -45,6 +45,20 @@
   },
   {
     "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_VELOCIRAPTOR_FOSSIL",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "genome_piece_velociraptor",
+          "recipe_to_give_1": "genome_velociraptor_fossil",
+          "recipe_to_give_2": "egg_clone_velociraptor"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
     "id": "EOC_ANALYZER_DILOPHOSAURUS_FOSSIL",
     "effect": [
       {
@@ -67,6 +81,62 @@
           "item_to_analyze": "genome_piece_tyrannosaurus",
           "recipe_to_give_1": "genome_tyrannosaurus_fossil",
           "recipe_to_give_2": "egg_clone_tyrannosaurus"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_TRICERATOPS_FOSSIL",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "genome_piece_triceratops",
+          "recipe_to_give_1": "genome_triceratops_fossil",
+          "recipe_to_give_2": "egg_clone_triceratops"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_STEGOSAURUS_FOSSIL",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "genome_piece_stegosaurus",
+          "recipe_to_give_1": "genome_stegosaurus_fossil",
+          "recipe_to_give_2": "egg_clone_stegosaurus"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_BRACHIOSAURUS_FOSSIL",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "genome_piece_brachiosaurus",
+          "recipe_to_give_1": "genome_brachiosaurus_fossil",
+          "recipe_to_give_2": "egg_clone_brachiosaurus"
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_PTERANODON_FOSSIL",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": {
+          "item_to_analyze": "genome_piece_pteranodon",
+          "recipe_to_give_1": "genome_pteranodon_fossil",
+          "recipe_to_give_2": "egg_clone_pteranodon"
         }
       }
     ]

@@ -1,0 +1,16 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_brachiosaurus",
+    "name": { "str": "DNA sequence (Brachiosaurus altithorax)", "str_pl": "DNA sequences (Brachiosaurus altithorax)" },
+    "description": "Pieces of genetic coding from the genome of Brachiosaurus altithorax implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_brachiosaurus",
+    "name": { "str": "genome (Brachiosaurus altithorax)", "str_pl": "genomes (Brachiosaurus altithorax)" },
+    "description": "The full genome of Brachiosaurus altithorax implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  }
+]

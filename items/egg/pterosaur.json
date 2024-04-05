@@ -1,0 +1,11 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_clone_pteranodon",
+    "name": { "str": "Pteranodon longiceps egg" },
+    "description": "A bird egg implanted with a Pteranodon longiceps embryo.",
+    "copy-from": "egg_goose_canadian",
+    "rot_spawn": "GROUP_egg_clone_coelophysis",
+    "rot_spawn_chance": 100
+  }
+]

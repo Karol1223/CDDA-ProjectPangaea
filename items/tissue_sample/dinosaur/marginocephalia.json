@@ -1,0 +1,9 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_triceratops",
+    "name": { "str": "tissue sample (Triceratops horridus)", "str_pl": "tissue samples (Triceratops horridus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Triceratops horridus.",
+    "copy-from": "tissue_sample_animal_base"
+  }
+]

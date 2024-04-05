@@ -1,0 +1,16 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_piece_pteranodon",
+    "name": { "str": "DNA sequence (Pteranodon longiceps)", "str_pl": "DNA sequences (Pteranodon longiceps)" },
+    "description": "Pieces of genetic coding from the genome of Pteranodon longiceps implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_pteranodon",
+    "name": { "str": "genome (Pteranodon longiceps)", "str_pl": "genomes (Pteranodon longiceps)" },
+    "description": "The full genome of Pteranodon longiceps implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  }
+]

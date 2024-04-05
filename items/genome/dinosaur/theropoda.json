@@ -15,6 +15,20 @@
   },
   {
     "type": "GENERIC",
+    "id": "genome_piece_velociraptor",
+    "name": { "str": "DNA sequence (Velociraptor mongoliensis)", "str_pl": "DNA sequences (Velociraptor mongoliensis)" },
+    "description": "Pieces of genetic coding from the genome of Velociraptor mongoliensis implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_velociraptor",
+    "name": { "str": "genome (Velociraptor mongoliensis)", "str_pl": "genomes (Velociraptor mongoliensis)" },
+    "description": "The full genome of Velociraptor mongoliensis implanted on a genome canvas.  The power to reverse extinction at your fingertips.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
     "id": "genome_piece_dilophosaurus",
     "name": { "str": "DNA sequence (Dilophosaurus wetherilli)", "str_pl": "DNA sequences (Dilophosaurus wetherilli)" },
     "description": "Pieces of genetic coding from the genome of Dilophosaurus wetherilli implanted on a genome canvas.",

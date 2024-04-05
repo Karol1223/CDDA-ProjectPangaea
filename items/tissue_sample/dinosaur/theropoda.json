@@ -8,6 +8,13 @@
   },
   {
     "type": "COMESTIBLE",
+    "id": "tissue_sample_velociraptor",
+    "name": { "str": "tissue sample (Velociraptor mongoliensis)", "str_pl": "tissue samples (Velociraptor mongoliensis)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Velociraptor mongoliensis.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
     "id": "tissue_sample_dilophosaurus",
     "name": { "str": "tissue sample (Dilophosaurus wetherilli)", "str_pl": "tissue samples (Dilophosaurus wetherilli)" },
     "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Dilophosaurus wetherilli.",
