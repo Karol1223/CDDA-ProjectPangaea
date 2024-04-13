@@ -14,7 +14,7 @@
     "name": { "str": "Velociraptor mongoliensis egg" },
     "description": "A bird egg implanted with a Velociraptor mongoliensis embryo.",
     "copy-from": "egg_chicken",
-    "rot_spawn": "GROUP_egg_clone_coelophysis",
+    "rot_spawn": "GROUP_egg_clone_velociraptor",
     "rot_spawn_chance": 100
   },
   {

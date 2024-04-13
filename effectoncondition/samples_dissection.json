@@ -59,6 +59,14 @@
       },
       {
         "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_velociraptor", "item_id": "tissue_sample_velociraptor" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_velociraptor_juv", "item_id": "tissue_sample_velociraptor" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
         "variables": { "butchered_mon": "mon_clone_dilophosaurus", "item_id": "tissue_sample_dilophosaurus" }
       },
       {

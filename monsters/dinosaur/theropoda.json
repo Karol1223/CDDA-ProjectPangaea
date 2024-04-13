@@ -166,6 +166,24 @@
   },
   {
     "type": "MONSTER",
+    "id": "mon_clone_velociraptor",
+    "name": { "str_sp": "Velociraptor mongoliensis" },
+    "description": "A small dromaeosaurid from regions that now encompass Mongolia and China.  The popular media have greatly exaggerated their lethality, and this fluffy fellow appears to show no hostility towards you.",
+    "default_faction": "velociraptor",
+    "copy-from": "mon_theropod_small_base",
+    "volume": "20 L",
+    "weight": "20 kg"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_clone_velociraptor_juv",
+    "name": { "str_sp": "juvenile Velociraptor mongoliensis" },
+    "default_faction": "velociraptor_juv",
+    "copy-from": "mon_theropod_small_juv_base",
+    "upgrades": { "age_grow": 20, "into": "mon_clone_velociraptor" }
+  },
+  {
+    "type": "MONSTER",
     "id": "mon_clone_dilophosaurus",
     "name": { "str_sp": "Dilophosaurus wetherilli" },
     "description": "A large slender predator from the Early Jurassic.  Despite its size, it is largely disinterested in your presence.  These predators prefer to hunt smaller prey.",

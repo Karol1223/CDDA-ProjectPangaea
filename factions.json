@@ -61,6 +61,18 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "velociraptor",
+    "base_faction": "predator_small",
+    "friendly": [ "velociraptor_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "velociraptor_juv",
+    "base_faction": "predator_small_juv",
+    "friendly": [ "velociraptor" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "dilophosaurus",
     "base_faction": "predator_medium",
     "friendly": [ "dilophosaurus_juv" ],
