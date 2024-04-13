@@ -172,7 +172,8 @@
     "default_faction": "velociraptor",
     "copy-from": "mon_theropod_small_base",
     "volume": "20 L",
-    "weight": "20 kg"
+    "weight": "20 kg",
+    "extend": { "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ] }
   },
   {
     "type": "MONSTER",

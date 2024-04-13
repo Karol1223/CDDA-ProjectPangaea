@@ -8,7 +8,7 @@
     "type": "MONSTER_FACTION",
     "name": "predator_small",
     "base_faction": "animal",
-    "neutral": [ "animal", "fish", "predator_large", "predator_large_juv", "fox" ],
+    "neutral": [ "animal", "fish", "predator_large", "predator_large_juv", "fox", "pterosaur_medium" ],
     "by_mood": [ "small_animal", "sewer_snake", "predator_small" ]
   },
   {
@@ -49,6 +49,13 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "pterosaur_medium",
+    "base_faction": "predator_small",
+    "neutral": [ "predator_small" ],
+    "by_mood": [ "fish" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "coelophysis",
     "base_faction": "predator_small",
     "friendly": [ "coelophysis_juv" ]
@@ -85,6 +92,18 @@
     "base_faction": "predator_medium_juv",
     "friendly": [ "dilophosaurus" ],
     "neutral": [ "predator_medium_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "pteranodon",
+    "base_faction": "pterosaur_medium",
+    "friendly": [ "pteranodon_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "pteranodon_juv",
+    "base_faction": "predator_small_juv",
+    "friendly": [ "pteranodon" ]
   },
   {
     "type": "MONSTER_FACTION",

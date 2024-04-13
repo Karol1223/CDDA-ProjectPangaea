@@ -1,0 +1,60 @@
+[
+  {
+    "type": "MONSTER",
+    "abstract": "mon_pterosaur_medium_base",
+    "name": { "str": "base medium pterosaur" },
+    "description": "A base abstract for other medium pterosaurs to copy from.  If you see this, something went wrong.",
+    "default_faction": "pterosaur_medium",
+    "bodytype": "bird",
+    "species": "DINOSAUR",
+    "volume": "70 L",
+    "weight": "50 kg",
+    "hp": 50,
+    "speed": 225,
+    "attack_cost": 150,
+    "material": [ "flesh" ],
+    "symbol": "D",
+    "color": "light_gray_yellow",
+    "aggression": 15,
+    "morale": 10,
+    "aggro_character": false,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_damage": [ { "damage_type": "cut", "amount": 0 } ],
+    "dodge": 5,
+    "families": [ "prof_intro_biology", "prof_physiology", "prof_wp_flying" ],
+    "harvest": "dino_leather",
+    "zombify_into": "mon_meat_cocoon_tiny",
+    "stomach_size": 300,
+    "special_attacks": [ { "id": "peck" }, [ "scratch", 5 ], [ "EAT_CARRION", 1 ] ],
+    "flags": [ "FLIES", "HIT_AND_RUN", "CORNERED_FIGHTER" ],
+    "anger_triggers": [ "PLAYER_WEAK", "PLAYER_NEAR_BABY", "FRIEND_ATTACKED", "FRIEND_DIED" ],
+    "fear_triggers": [ "HURT" ]
+  },
+  {
+    "type": "MONSTER",
+    "abstract": "mon_pterosaur_juv_base",
+    "name": { "str": "base pterosaur juvenile" },
+    "description": "A tiny pterosaur chick.  Given the size, this one will probably not grow too dangerous… probably…",
+    "copy-from": "mon_theropod_small_juv_base",
+    "default_faction": "predator_small_juv",
+    "bodytype": "bird",
+    "speed": 45
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_clone_pteranodon",
+    "name": { "str_sp": "Pteranodon longiceps" },
+    "description": "A large flying reptile from Cretaceous North America.  Doesn't seem outright hostile, but with a beak like that you probably shouldn't get too close.",
+    "copy-from": "mon_pterosaur_medium_base",
+    "default_faction": "pteranodon"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_clone_pteranodon_juv",
+    "name": { "str_sp": "juvenile Pteranodon longiceps" },
+    "copy-from": "mon_pterosaur_juv_base",
+    "default_faction": "pteranodon_juv"
+  }
+]

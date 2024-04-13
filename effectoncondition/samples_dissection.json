@@ -83,6 +83,14 @@
       },
       {
         "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_pteranodon", "item_id": "tissue_sample_pteranodon" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_pteranodon_juv", "item_id": "tissue_sample_pteranodon" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
         "variables": { "butchered_mon": "mon_clone_xiphactinus", "item_id": "tissue_sample_xiphactinus" }
       }
     ]

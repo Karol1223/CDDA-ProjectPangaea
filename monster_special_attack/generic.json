@@ -82,5 +82,19 @@
     "no_dmg_msg_npc": "%1$s tries to sink its fangs into <npcname>, but their armor protects them!",
     "condition": { "u_has_flag": "GRAB_FILTER" },
     "dodgeable": false
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "peck",
+    "cooldown": 20,
+    "move_cost": 100,
+    "damage_max_instance": [ { "damage_type": "stab", "amount": 12, "armor_penetration": 7 } ],
+    "hit_dmg_u": "%1$s pecks your %2$s!",
+    "hit_dmg_npc": "%1$s pecks <npcname>!",
+    "miss_msg_u": "%1$s tries to peck you, but you dodge!",
+    "miss_msg_npc": "%1$s tries to peck <npcname>, but they dodge!",
+    "no_dmg_msg_u": "%1$s tries to peck your %2$s, but fails to penetrate your armor.",
+    "no_dmg_msg_npc": "%1$s tries to peck <npcname>, but fails to penetrate their armor."
   }
 ]
