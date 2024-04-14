@@ -35,6 +35,11 @@
     "monsters": [ { "monster": "mon_clone_stegosaurus_juv" } ]
   },
   {
+    "name": "GROUP_egg_clone_brachiosaurus",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_clone_brachiosaurus_juv" } ]
+  },
+  {
     "name": "GROUP_egg_clone_pteranodon",
     "type": "monstergroup",
     "monsters": [ { "monster": "mon_clone_pteranodon_juv" } ]

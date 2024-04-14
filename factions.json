@@ -36,7 +36,7 @@
     "type": "MONSTER_FACTION",
     "name": "predator_large",
     "base_faction": "animal",
-    "neutral": [ "small_animal", "fish", "predator_large_juv", "fox" ],
+    "neutral": [ "small_animal", "fish", "predator_large_juv", "fox", "sauropod_huge" ],
     "by_mood": [ "animal" ],
     "hate": [ "predator_large", "predator_medium" ]
   },
@@ -51,7 +51,7 @@
     "type": "MONSTER_FACTION",
     "name": "herbivore_large",
     "base_faction": "herbivore",
-    "neutral": [ "herbivore_large_juv" ],
+    "neutral": [ "herbivore_large_juv", "sauropod_huge" ],
     "by_mood": [ "predator_medium", "predator_large", "bear", "big_cat" ]
   },
   {
@@ -66,6 +66,11 @@
     "base_faction": "herbivore_large",
     "neutral": [ "stegosaurid_large" ],
     "by_mood": [ "herbivore_large" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "sauropod_huge",
+    "base_faction": "herbivore_large"
   },
   {
     "type": "MONSTER_FACTION",
@@ -141,6 +146,18 @@
     "name": "stegosaurus_juv",
     "base_faction": "herbivore_large_juv",
     "friendly": [ "stegosaurus" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "brachiosaurus",
+    "base_faction": "sauropod_huge",
+    "friendly": [ "brachiosaurus_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "brachiosaurus_juv",
+    "base_faction": "herbivore_large_juv",
+    "friendly": [ "brachiosaurus" ]
   },
   {
     "type": "MONSTER_FACTION",
