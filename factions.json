@@ -56,6 +56,19 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "ceratopsid_large",
+    "base_faction": "herbivore_large",
+    "by_mood": [ "herbivore_large", "ceratopsid_large" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "stegosaurid_large",
+    "base_faction": "herbivore_large",
+    "neutral": [ "stegosaurid_large" ],
+    "by_mood": [ "herbivore_large" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "herbivore_large_juv",
     "base_faction": "animal"
   },
@@ -108,7 +121,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "triceratops",
-    "base_faction": "herbivore_large",
+    "base_faction": "ceratopsid_large",
     "friendly": [ "triceratops_juv" ]
   },
   {
@@ -116,6 +129,18 @@
     "name": "triceratops_juv",
     "base_faction": "herbivore_large_juv",
     "friendly": [ "triceratops" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "stegosaurus",
+    "base_faction": "stegosaurid_large",
+    "friendly": [ "stegosaurus_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "stegosaurus_juv",
+    "base_faction": "herbivore_large_juv",
+    "friendly": [ "stegosaurus" ]
   },
   {
     "type": "MONSTER_FACTION",

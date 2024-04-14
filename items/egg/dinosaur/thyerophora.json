@@ -5,7 +5,7 @@
     "name": { "str": "Stegosaurus stenops egg" },
     "description": "A bird egg implanted with a Stegosaurus stenops embryo.",
     "copy-from": "egg_ostrich",
-    "rot_spawn": "GROUP_egg_clone_coelophysis",
+    "rot_spawn": "GROUP_egg_clone_stegosaurus",
     "rot_spawn_chance": 100
   }
 ]
