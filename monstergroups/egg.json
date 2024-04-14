@@ -25,6 +25,11 @@
     "monsters": [ { "monster": "mon_clone_tyrannosaurus_juv" } ]
   },
   {
+    "name": "GROUP_egg_clone_triceratops",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_clone_triceratops_juv" } ]
+  },
+  {
     "name": "GROUP_egg_clone_pteranodon",
     "type": "monstergroup",
     "monsters": [ { "monster": "mon_clone_pteranodon_juv" } ]

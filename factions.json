@@ -49,6 +49,18 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "herbivore_large",
+    "base_faction": "herbivore",
+    "neutral": [ "herbivore_large_juv" ],
+    "by_mood": [ "predator_medium", "predator_large", "bear", "big_cat" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "herbivore_large_juv",
+    "base_faction": "animal"
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "pterosaur_medium",
     "base_faction": "predator_small",
     "neutral": [ "predator_small" ],
@@ -92,6 +104,18 @@
     "base_faction": "predator_medium_juv",
     "friendly": [ "dilophosaurus" ],
     "neutral": [ "predator_medium_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "triceratops",
+    "base_faction": "herbivore_large",
+    "friendly": [ "triceratops_juv" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "triceratops_juv",
+    "base_faction": "herbivore_large_juv",
+    "friendly": [ "triceratops" ]
   },
   {
     "type": "MONSTER_FACTION",

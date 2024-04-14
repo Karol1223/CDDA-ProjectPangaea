@@ -83,6 +83,14 @@
       },
       {
         "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_triceratops", "item_id": "tissue_sample_triceratops" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_clone_triceratops_juv", "item_id": "tissue_sample_triceratops" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
         "variables": { "butchered_mon": "mon_clone_pteranodon", "item_id": "tissue_sample_pteranodon" }
       },
       {
