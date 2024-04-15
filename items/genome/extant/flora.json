@@ -1,6 +1,13 @@
 [
   {
     "type": "GENERIC",
+    "id": "genome_corn",
+    "name": { "str": "genome (Zea mays)", "str_pl": "genomes (Zea mays)" },
+    "description": "The full genome of Zea mays, or maize, or corn, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
     "id": "genome_japanese_knotweed",
     "name": { "str": "genome (Reynoutria japonica)", "str_pl": "genomes (Reynoutria japonica)" },
     "description": "The full genome of Reynoutria japonica, or Japanese knotweed, implanted on a genome canvas.",
@@ -32,6 +39,20 @@
     "id": "genome_beech",
     "name": { "str": "genome (Fagus grandifolia)", "str_pl": "genomes (Fagus grandifolia)" },
     "description": "The full genome of Fagus grandifolia, or American beech, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_thale_cress",
+    "name": { "str": "genome (Arabidopsis thaliana)", "str_pl": "genomes (Arabidopsis thaliana)" },
+    "description": "The full genome of Arabidopsis thaliana, or thale cress, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_selaginella",
+    "name": { "str": "genome (Selaginella moellendorffii)", "str_pl": "genomes (Selaginella moellendorffii)" },
+    "description": "The full genome of Selaginella moellendorffii implanted on a genome canvas.",
     "copy-from": "genome_canvas"
   }
 ]

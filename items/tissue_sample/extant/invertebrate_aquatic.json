@@ -1,0 +1,9 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_urchin_atlantic_purple",
+    "name": { "str": "tissue sample (Arbacia punctulata)", "str_pl": "tissue samples (Arbacia punctulata)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Arbacia punctulata, or an Atlantic purple sea urchin if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  }
+]

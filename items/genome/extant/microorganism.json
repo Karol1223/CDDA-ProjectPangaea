@@ -1,0 +1,9 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_E_coli",
+    "name": { "str": "genome (Escherichia coli)", "str_pl": "genomes (Escherichia coli)" },
+    "description": "The full genome of Escherichia coli implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  }
+]

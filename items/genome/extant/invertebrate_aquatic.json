@@ -1,0 +1,30 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_anemone_starlet",
+    "name": { "str": "genome (Nematostella vectensis)", "str_pl": "genomes (Nematostella vectensis)" },
+    "description": "The full genome of Nematostella vectensis, or the starlet sea anemone, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_platynereis_dumerilii",
+    "name": { "str": "genome (Platynereis dumerilii)", "str_pl": "genomes (Platynereis dumerilii)" },
+    "description": "The full genome of Platynereis dumerilii implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_urchin_atlantic_purple",
+    "name": { "str": "genome (Arbacia punctulata)", "str_pl": "genomes (Arbacia punctulata)" },
+    "description": "The full genome of Arbacia punctulata, or the atlantic purple sea urchin, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_parhyale_hawaiensis",
+    "name": { "str": "genome (Parhyale hawaiensis)", "str_pl": "genomes (Parhyale hawaiensis)" },
+    "description": "The full genome of Parhyale hawaiensis implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  }
+]

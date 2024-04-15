@@ -3,21 +3,28 @@
     "type": "GENERIC",
     "id": "genome_chicken",
     "name": { "str": "genome (Gallus gallus domesticus)", "str_pl": "genomes (Gallus gallus domesticus)" },
-    "description": "The full genome of Gallus gallus domesticus, or a domestic chicken, implanted on a genome canvas.",
+    "description": "The full genome of Gallus gallus domesticus, or the domestic chicken, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_pigeon",
+    "name": { "str": "genome (Columba livia domestica)", "str_pl": "genomes (Columba livia domestica)" },
+    "description": "The full genome of Columba livia domestica, or the feral pigeon, implanted on a genome canvas.",
     "copy-from": "genome_canvas"
   },
   {
     "type": "GENERIC",
     "id": "genome_goose_canadian",
     "name": { "str": "genome (Branta canadensis)", "str_pl": "genomes (Branta canadensis)" },
-    "description": "The full genome of Branta canadensis, or a Canada goose, implanted on a genome canvas.",
+    "description": "The full genome of Branta canadensis, or the Canada goose, implanted on a genome canvas.",
     "copy-from": "genome_canvas"
   },
   {
     "type": "GENERIC",
     "id": "genome_ostrich",
     "name": { "str": "genome (Struthio camelus)", "str_pl": "genomes (Struthio camelus)" },
-    "description": "The full genome of Struthio camelus, or an African ostrich, implanted on a genome canvas.",
+    "description": "The full genome of Struthio camelus, or the African ostrich, implanted on a genome canvas.",
     "copy-from": "genome_canvas"
   }
 ]

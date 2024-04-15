@@ -11,12 +11,45 @@
   {
     "id": "FIELD_sample",
     "type": "item_group",
-    "items": [ { "item": "tissue_sample_chicken" }, { "item": "tissue_sample_salmon" } ]
+    "items": [
+      { "item": "tissue_sample_thale_cress" },
+      { "item": "tissue_sample_selaginella" },
+      { "item": "tissue_sample_chicken" },
+      { "item": "tissue_sample_pigeon" },
+      { "item": "tissue_sample_mouse" },
+      { "item": "tissue_sample_lab_rat" },
+      { "item": "tissue_sample_guinea_pig" },
+      { "item": "tissue_sample_pig" },
+      { "item": "tissue_sample_cow" },
+      { "item": "tissue_sample_axolotl" },
+      { "item": "tissue_sample_frog_african_clawed" },
+      { "item": "tissue_sample_urchin_atlantic_purple" }
+    ]
   },
   {
     "id": "FIELD_genome",
     "type": "item_group",
-    "items": [ { "item": "genome_chicken" }, { "item": "genome_salmon" } ]
+    "items": [
+      { "item": "genome_corn" },
+      { "item": "genome_thale_cress" },
+      { "item": "genome_selaginella" },
+      { "item": "genome_chicken" },
+      { "item": "genome_pigeon" },
+      { "item": "genome_mouse" },
+      { "item": "genome_lab_rat" },
+      { "item": "genome_guinea_pig" },
+      { "item": "genome_pig" },
+      { "item": "genome_cow" },
+      { "item": "genome_axolotl" },
+      { "item": "genome_frog_african_clawed" },
+      { "item": "genome_zebra_danio" },
+      { "item": "genome_lesser_fruit_fly" },
+      { "item": "genome_anemone_starlet" },
+      { "item": "genome_platynereis_dumerilii" },
+      { "item": "genome_urchin_atlantic_purple" },
+      { "item": "genome_parhyale_hawaiensis" },
+      { "item": "genome_E_coli" }
+    ]
   },
   {
     "id": "FIELD_chem_counter",

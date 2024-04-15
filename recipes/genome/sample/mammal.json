@@ -2,49 +2,61 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "result": "genome_chicken",
+    "result": "genome_mouse",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
     "difficulty": 3,
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
-    "components": [ [ [ "tissue_sample_chicken", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+    "components": [ [ [ "tissue_sample_mouse", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "result": "genome_pigeon",
+    "result": "genome_lab_rat",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
     "difficulty": 3,
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
-    "components": [ [ [ "tissue_sample_pigeon", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+    "components": [ [ [ "tissue_sample_lab_rat", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "result": "genome_goose_canadian",
+    "result": "genome_guinea_pig",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
     "difficulty": 3,
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
-    "components": [ [ [ "tissue_sample_goose_canadian", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+    "components": [ [ [ "tissue_sample_guinea_pig", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "result": "genome_ostrich",
+    "result": "genome_pig",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
     "difficulty": 3,
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
-    "components": [ [ [ "tissue_sample_ostrich", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+    "components": [ [ [ "tissue_sample_pig", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_cow",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 3,
+    "time": "5 m",
+    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "components": [ [ [ "tissue_sample_cow", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   }
 ]

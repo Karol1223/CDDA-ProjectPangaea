@@ -33,5 +33,19 @@
     "name": { "str": "tissue sample (Fagus grandifolia)", "str_pl": "tissue samples (Fagus grandifolia)" },
     "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Fagus grandifolia, or American beech if you prefer English.",
     "copy-from": "tissue_sample_plant_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_thale_cress",
+    "name": { "str": "tissue sample (Arabidopsis thaliana)", "str_pl": "tissue samples (Arabidopsis thaliana)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Arabidopsis thaliana, or thale cress if you prefer English.",
+    "copy-from": "tissue_sample_plant_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_selaginella",
+    "name": { "str": "tissue sample (Selaginella moellendorffii)", "str_pl": "tissue samples (Selaginella moellendorffii)" },
+    "description": "A piece of tissue harvested from a plant.  You should either make use of it or freeze it quickly.  This one comes from Selaginella moellendorffii.",
+    "copy-from": "tissue_sample_plant_base"
   }
 ]

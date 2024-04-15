@@ -1,0 +1,16 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_axolotl",
+    "name": { "str": "tissue sample (Ambystoma mexicanum)", "str_pl": "tissue samples (Ambystoma mexicanum)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Ambystoma mexicanum, or a Mexican axolotl if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_frog_african_clawed",
+    "name": { "str": "tissue sample (Xenopus laevis)", "str_pl": "tissue samples (Xenopus laevis)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Xenopus laevis, or an African clawed frog if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  }
+]

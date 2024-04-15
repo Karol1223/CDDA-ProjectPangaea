@@ -19,11 +19,35 @@
     "effect": [
       {
         "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_lab_rat", "item_id": "tissue_sample_lab_rat" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_pig", "item_id": "tissue_sample_pig" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_pig_piglet", "item_id": "tissue_sample_pig" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_cow", "item_id": "tissue_sample_cow" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_cow_calf", "item_id": "tissue_sample_cow" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
         "variables": { "butchered_mon": "mon_chicken", "item_id": "tissue_sample_chicken" }
       },
       {
         "run_eoc_with": "EOC_SAMPLER_DISSECTION",
         "variables": { "butchered_mon": "mon_chicken_chick", "item_id": "tissue_sample_chicken" }
+      },
+      {
+        "run_eoc_with": "EOC_SAMPLER_DISSECTION",
+        "variables": { "butchered_mon": "mon_pigeon", "item_id": "tissue_sample_pigeon" }
       },
       {
         "run_eoc_with": "EOC_SAMPLER_DISSECTION",

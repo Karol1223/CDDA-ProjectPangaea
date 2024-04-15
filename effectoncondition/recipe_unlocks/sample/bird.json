@@ -15,6 +15,16 @@
   },
   {
     "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_PIGEON",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "tissue_sample_pigeon", "recipe_to_give_1": "genome_pigeon" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
     "id": "EOC_ANALYZER_GOOSE_CANADIAN",
     "effect": [
       {

@@ -1,0 +1,16 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_axolotl",
+    "name": { "str": "genome (Ambystoma mexicanum)", "str_pl": "genomes (Ambystoma mexicanum)" },
+    "description": "The full genome of Ambystoma mexicanum, or the Mexican axolotl, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_frog_african_clawed",
+    "name": { "str": "genome (Xenopus laevis)", "str_pl": "genomes (Xenopus laevis)" },
+    "description": "The full genome of Xenopus laevis, or the African clawed frog, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  }
+]

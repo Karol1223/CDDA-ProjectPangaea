@@ -1,0 +1,37 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_mouse",
+    "name": { "str": "genome (Mus musculus)", "str_pl": "genomes (Mus musculus)" },
+    "description": "The full genome of Mus musculus, or the house mouse, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_lab_rat",
+    "name": { "str": "genome (Rattus norvegicus) (Lab Rat)", "str_pl": "genomes (Rattus norvegicus) (Lab Rat)" },
+    "description": "The full genome of Rattus norvegicus, or the brown rat, specifically of the lab variety, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_guinea_pig",
+    "name": { "str": "genome (Cavia porcellus)", "str_pl": "genomes (Cavia porcellus)" },
+    "description": "The full genome of Cavia porcellus, or the guinea pig, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_pig",
+    "name": { "str": "genome (Sus scrofa domesticus)", "str_pl": "genomes (Sus scrofa domesticus)" },
+    "description": "The full genome of Sus scrofa domesticus, or the domestic pig, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_cow",
+    "name": { "str": "genome (Bos taurus)", "str_pl": "genomes (Bos taurus)" },
+    "description": "The full genome of Bos taurus, or the domestic cattle, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  }
+]

@@ -3,14 +3,21 @@
     "type": "GENERIC",
     "id": "genome_salmon",
     "name": { "str": "genome (Salmo salar)", "str_pl": "genomes (Salmo salar)" },
-    "description": "The full genome of Salmo salar, or an Atlantic salmon, implanted on a genome canvas.",
+    "description": "The full genome of Salmo salar, or the Atlantic salmon, implanted on a genome canvas.",
     "copy-from": "genome_canvas"
   },
   {
     "type": "GENERIC",
     "id": "genome_bluefin_tuna",
     "name": { "str": "genome (Thunnus thynnus)", "str_pl": "genomes (Thunnus thynnus)" },
-    "description": "The full genome of Thunnus thynnus, or an Atlantic bluefin tuna, implanted on a genome canvas.",
+    "description": "The full genome of Thunnus thynnus, or the Atlantic bluefin tuna, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_zebra_danio",
+    "name": { "str": "genome (Danio rerio)", "str_pl": "genomes (Danio rerio)" },
+    "description": "The full genome of Danio rerio, or the zebra danio, implanted on a genome canvas.",
     "copy-from": "genome_canvas"
   }
 ]

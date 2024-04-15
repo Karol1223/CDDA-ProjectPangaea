@@ -1,0 +1,12 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_URCHIN_ATLANTIC_PURPLE",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "tissue_sample_urchin_atlantic_purple", "recipe_to_give_1": "genome_urchin_atlantic_purple" }
+      }
+    ]
+  }
+]

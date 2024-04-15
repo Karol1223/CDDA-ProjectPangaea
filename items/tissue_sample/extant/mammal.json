@@ -1,0 +1,37 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_mouse",
+    "name": { "str": "tissue sample (Mus musculus)", "str_pl": "tissue samples (Mus musculus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Mus musculus, or a house mouse if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_lab_rat",
+    "name": { "str": "tissue sample (Rattus norvegicus) (Lab Rat)", "str_pl": "tissue samples (Rattus norvegicus) (Lab Rat)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Rattus norvegicus, or a brown rat, specifically of the lab variety, if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_guinea_pig",
+    "name": { "str": "tissue sample (Cavia porcellus)", "str_pl": "tissue samples (Cavia porcellus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Cavia porcellus, or a guinea pig if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_pig",
+    "name": { "str": "tissue sample (Sus scrofa domesticus)", "str_pl": "tissue samples (Sus scrofa domesticus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Sus scrofa domesticus, or a domestic pig if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tissue_sample_cow",
+    "name": { "str": "tissue sample (Bos taurus)", "str_pl": "tissue samples (Bos taurus)" },
+    "description": "A piece of tissue harvested from an animal.  You should either make use of it or freeze it quickly.  This one comes from Bos taurus, or domestic cattle if you prefer English.",
+    "copy-from": "tissue_sample_animal_base"
+  }
+]

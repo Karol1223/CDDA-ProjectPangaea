@@ -2,6 +2,18 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_corn",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 1,
+    "time": "5 m",
+    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "components": [ [ [ "empty_corn_cob", 1 ], [ "corn", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "genome_japanese_knotweed",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
@@ -58,5 +70,29 @@
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
     "components": [ [ [ "tissue_sample_beech", 1 ], [ "beech_nuts", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_thale_cress",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 1,
+    "time": "5 m",
+    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "components": [ [ [ "tissue_sample_thale_cress", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "genome_selaginella",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 1,
+    "time": "5 m",
+    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "components": [ [ [ "tissue_sample_selaginella", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   }
 ]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "genome_lesser_fruit_fly",
+    "name": { "str": "genome (Drosophila melanogaster)", "str_pl": "genomes (Drosophila melanogaster)" },
+    "description": "The full genome of Drosophila melanogaster, or the lesser fruit fly, implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  }
+]
