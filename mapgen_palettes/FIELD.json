@@ -32,26 +32,30 @@
       "e": "f_coffee_table",
       "f": "f_fridge",
       "/": "f_counter",
+      "0": "f_counter",
+      "9": "f_counter",
       "H": "f_warehouse_shelf",
       "F": "f_sample_freezer",
       "u": "f_utility_shelf",
+      "2": "f_utility_shelf",
+      "3": "f_utility_shelf",
+      "4": "f_utility_shelf",
       "M": "f_machinery_light",
       "C": "f_centrifuge",
       "V": "f_console",
       "O": "f_autoclave",
       ".": [
-        [ "f_null", 650 ],
-        "f_boulder_large",
+        [ "f_null", 1240 ],
+        [ "f_boulder_large", 1 ],
         [ "f_boulder_medium", 2 ],
-        [ "f_boulder_small", 4 ],
+        [ "f_boulder_small", 2 ],
         [ "f_region_flower", 30 ],
         [ "f_region_weed", 20 ]
       ]
     },
     "vehicles": {
       "m": { "vehicle": "swivel_chair", "rotation": 180, "chance": 100 },
-      "v": { "vehicle": "swivel_chair", "rotation": 270, "chance": 100 },
-      "n": { "vehicle": "swivel_chair", "rotation": 90, "chance": 100 }
+      "n": { "vehicle": "swivel_chair", "rotation": 0, "chance": 100 }
     },
     "toilets": { "t": {  } }
   }

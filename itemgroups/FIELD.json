@@ -1,0 +1,76 @@
+[
+  {
+    "id": "fossil_any",
+    "type": "item_group",
+    "items": [
+      { "item": "fossil_triassic", "prob": 1 },
+      { "item": "fossil_jurassic", "prob": 9 },
+      { "item": "fossil_cretaceous", "prob": 10 }
+    ]
+  },
+  {
+    "id": "FIELD_sample",
+    "type": "item_group",
+    "items": [ { "item": "tissue_sample_chicken" }, { "item": "tissue_sample_salmon" } ]
+  },
+  {
+    "id": "FIELD_genome",
+    "type": "item_group",
+    "items": [ { "item": "genome_chicken" }, { "item": "genome_salmon" } ]
+  },
+  {
+    "id": "FIELD_chem_counter",
+    "type": "item_group",
+    "items": [ { "group": "chem_school", "prob": 4 }, { "group": "FIELD_genome", "prob": 1 } ]
+  },
+  {
+    "id": "FIELD_storage",
+    "type": "item_group",
+    "items": [
+      { "group": "tools_science", "prob": 350 },
+      { "item": "sampler", "prob": 40 },
+      { "item": "genome_canvas", "prob": 100, "count": [ 1, 12 ] },
+      { "group": "fossil_any", "prob": 350, "count": [ 1, 6 ] }
+    ]
+  },
+  {
+    "id": "sauce_any",
+    "type": "item_group",
+    "items": [
+      { "group": "ketchup_sealed_rng" },
+      { "group": "mustard_sealed_rng" },
+      { "group": "barbecue_sauce_sealed_rng" },
+      { "group": "honey_mustard_sealed_rng" }
+    ]
+  },
+  {
+    "id": "breakroom_kitchen_counter",
+    "type": "item_group",
+    "items": [
+      { "group": "breakroom_kitchen_table", "prob": 100 },
+      { "item": "coffeemaker", "prob": 5 },
+      { "item": "kettle", "prob": 15 },
+      { "group": "pasta", "prob": 50 },
+      { "group": "softdrinks_bottled", "prob": 33 },
+      { "group": "candy_chocolate", "prob": 33 },
+      { "group": "salty_snacks", "prob": 50 },
+      { "group": "sauce_any", "prob": 45 }
+    ]
+  },
+  {
+    "id": "breakroom_kitchen_table",
+    "type": "item_group",
+    "items": [
+      { "item": "ceramic_mug", "prob": 5 },
+      { "item": "plastic_plate", "prob": 12 },
+      { "item": "cup_plastic", "prob": 8 },
+      { "item": "plastic_fork", "prob": 25 },
+      { "item": "plastic_spoon", "prob": 7 },
+      { "item": "plastic_knife", "prob": 25 },
+      { "item": "ceramic_plate", "prob": 1 },
+      { "item": "knife_butter", "prob": 3 },
+      { "item": "fork", "prob": 3 },
+      { "item": "spoon", "prob": 1 }
+    ]
+  }
+]
