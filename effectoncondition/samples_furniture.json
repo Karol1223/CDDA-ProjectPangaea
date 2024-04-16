@@ -2,7 +2,17 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_SAMPLER_FLORA",
-    "effect": [ { "run_eocs": [ "EOC_SAMPLER_JAPANESE_KNOTWEED" ] } ],
+    "effect": [
+      {
+        "run_eocs": [
+          "EOC_SAMPLER_JAPANESE_KNOTWEED",
+          "EOC_SAMPLER_BLACK_EYED_SUSAN",
+          "EOC_SAMPLER_CHAMOMILE",
+          "EOC_SAMPLER_SASSAFRAS",
+          "EOC_SAMPLER_BEECH"
+        ]
+      }
+    ],
     "false_effect": [ { "u_message": "Nothing to sample here." } ]
   },
   {
