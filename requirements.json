@@ -5,6 +5,22 @@
     "extend": { "components": [ [ [ "egg_ostrich_prepared", 1 ] ] ] }
   },
   {
+    "id": "egg_surrogate_XXS",
+    "type": "requirement",
+    "//": "TODO: Update after the passerine audit comes through",
+    "components": [ [ [ "egg_sparrow", 1 ], [ "egg_hummingbird", 1 ] ] ]
+  },
+  {
+    "id": "egg_surrogate_XS",
+    "type": "requirement",
+    "components": [ [ [ "egg_pigeon", 1 ], [ "egg_crow", 1 ], [ "egg_raven", 1 ] ] ]
+  },
+  {
+    "id": "egg_surrogate_S",
+    "type": "requirement",
+    "components": [ [ [ "egg_bird_unfert", 1 ], [ "egg_chicken", 1 ] ] ]
+  },
+  {
     "id": "roe_saltwater",
     "type": "requirement",
     "//": "All saltwater fish roe.",

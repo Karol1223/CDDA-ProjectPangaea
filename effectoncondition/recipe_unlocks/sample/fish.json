@@ -26,5 +26,15 @@
         }
       }
     ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_ZEBRA_DANIO",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "tissue_sample_zebra_danio", "recipe_to_give_1": "genome_zebra_danio" }
+      }
+    ]
   }
 ]

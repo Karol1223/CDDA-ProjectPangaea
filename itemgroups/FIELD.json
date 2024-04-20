@@ -23,6 +23,7 @@
       { "item": "tissue_sample_cow" },
       { "item": "tissue_sample_axolotl" },
       { "item": "tissue_sample_frog_african_clawed" },
+      { "item": "tissue_sample_zebra_danio" },
       { "item": "tissue_sample_urchin_atlantic_purple" }
     ]
   },

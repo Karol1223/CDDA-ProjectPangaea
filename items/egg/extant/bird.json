@@ -24,6 +24,14 @@
   },
   {
     "type": "COMESTIBLE",
+    "id": "egg_clone_pigeon",
+    "name": { "str": "cloned feral pigeon egg" },
+    "description": "A bird egg implanted with a feral pigeon embryo.  It is guaranteed to hatch.",
+    "copy-from": "egg_pigeon",
+    "rot_spawn_chance": 100
+  },
+  {
+    "type": "COMESTIBLE",
     "id": "egg_clone_chicken",
     "name": { "str": "cloned chicken egg" },
     "description": "A bird egg implanted with a domestic chicken embryo.  It is guaranteed to hatch.",

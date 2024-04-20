@@ -9,7 +9,7 @@
     "difficulty": 6,
     "time": "5 m",
     "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_coelophysis", -1 ] ] ],
-    "components": [ [ [ "egg_bird_unfert", 1 ], [ "egg_chicken", 1 ] ] ]
+    "components": [ [ [ "egg_surrogate_S", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -21,7 +21,7 @@
     "difficulty": 6,
     "time": "5 m",
     "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_velociraptor", -1 ] ] ],
-    "components": [ [ [ "egg_bird_unfert", 1 ], [ "egg_chicken", 1 ] ] ]
+    "components": [ [ [ "egg_surrogate_S", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -110,6 +110,18 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
+    "result": "egg_clone_pigeon",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_EGGS",
+    "skill_used": "genetics",
+    "difficulty": 6,
+    "time": "5 m",
+    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_chicken", -1 ] ] ],
+    "components": [ [ [ "egg_surrogate_XS", 1, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "egg_clone_chicken",
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
@@ -117,7 +129,7 @@
     "difficulty": 6,
     "time": "5 m",
     "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_chicken", -1 ] ] ],
-    "components": [ [ [ "egg_bird_unfert", 1 ], [ "egg_chicken", 1 ] ] ]
+    "components": [ [ [ "egg_surrogate_S", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",

@@ -19,7 +19,11 @@
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
-        "variables": { "item_to_analyze": "tissue_sample_pigeon", "recipe_to_give_1": "genome_pigeon" }
+        "variables": {
+          "item_to_analyze": "tissue_sample_pigeon",
+          "recipe_to_give_1": "genome_pigeon",
+          "recipe_to_give_2": "egg_clone_pigeon"
+        }
       }
     ]
   },
