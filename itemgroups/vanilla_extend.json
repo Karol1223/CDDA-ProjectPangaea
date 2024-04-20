@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wallet_science_leather_full",
+    "type": "item_group",
+    "subtype": "collection",
+    "copy-from": "wallet_science_leather_full",
+    "extend": { "items": [ { "item": "FIELD_map", "prob": 20 } ] }
+  },
+  {
+    "id": "wallet_science_full",
+    "type": "item_group",
+    "subtype": "collection",
+    "copy-from": "wallet_science_full",
+    "extend": { "items": [ { "item": "FIELD_map", "prob": 20 } ] }
+  },
+  {
+    "id": "wallet_science_stylish_full",
+    "type": "item_group",
+    "subtype": "collection",
+    "copy-from": "wallet_science_stylish_full",
+    "extend": { "items": [ { "item": "FIELD_map", "prob": 20 } ] }
+  },
+  {
+    "id": "lanyard_science_full",
+    "type": "item_group",
+    "subtype": "collection",
+    "copy-from": "lanyard_science_full",
+    "extend": { "items": [ { "item": "FIELD_map", "prob": 20 } ] }
+  }
+]

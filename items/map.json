@@ -1,0 +1,11 @@
+[
+  {
+    "type": "GENERIC",
+    "category": "maps",
+    "id": "FIELD_map",
+    "name": { "str": "peculiar note" },
+    "description": "A small piece of paper with the location of… something?  The note calls it a 'F.I.E.L.D.'…  The hell is that?",
+    "copy-from": "labmap",
+    "use_action": { "type": "reveal_map", "radius": 180, "terrain": [ "pangaea_FIELD" ], "message": "You add the location to your map." }
+  }
+]
