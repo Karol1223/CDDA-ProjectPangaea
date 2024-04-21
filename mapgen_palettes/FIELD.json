@@ -57,6 +57,7 @@
       "m": { "vehicle": "swivel_chair", "rotation": 180, "chance": 100 },
       "n": { "vehicle": "swivel_chair", "rotation": 0, "chance": 100 }
     },
-    "toilets": { "t": {  } }
+    "toilets": { "t": {  } },
+    "signs": { "5": { "signage": "The basement isn't coded in yet." } }
   }
 ]
