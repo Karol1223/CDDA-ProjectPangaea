@@ -1,0 +1,15 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SLOP",
+    "effect": [
+      { "u_run_inv_eocs": "manual_mult", "search_data": [ { "calories": 1 } ], "true_eocs": [ "EOC_COUNT_SLOP" ] },
+      { "u_spawn_item": "nutrifluid_temporary", "count": { "math": [ "_amount_of_calories / 10" ] } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_COUNT_SLOP",
+    "effect": [ { "math": [ "_amount_of_calories", "+=", "n_calories()" ] } ]
+  }
+]

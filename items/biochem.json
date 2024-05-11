@@ -1,0 +1,53 @@
+[
+  {
+    "id": "nutrifluid_temporary",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "nutritional medium" },
+    "description": "A thick viscous fluid of an off-green coloration.  Created by processing various edible matter, used to allow the creation of embryos by the Gaia Nest.",
+    "symbol": "~",
+    "color": "green",
+    "material": [ "water" ],
+    "weight": "25 g",
+    "volume": "25 ml",
+    "comestible_type": "INVALID",
+    "calories": 10,
+    "spoils_in": 600,
+    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ],
+    "phase": "liquid",
+    "charges": 1
+  },
+  {
+    "id": "nutrifluid_plant",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "green nutritional medium" },
+    "description": "A thick viscous fluid of an off-green coloration.  Created by processing various edible plant matter, used to allow the creation of embryos by the Gaia Nest.",
+    "symbol": "~",
+    "color": "green",
+    "material": [ "veggy" ],
+    "weight": "25 g",
+    "volume": "25 ml",
+    "comestible_type": "INVALID",
+    "calories": 10,
+    "spoils_in": 600,
+    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ],
+    "phase": "liquid",
+    "charges": 1
+  },
+  {
+    "id": "nutrifluid_meat",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "red nutritional medium" },
+    "description": "A thick viscous fluid of an off-red coloration.  Created by processing various animal tissue, used to allow the creation of embryos by the Gaia Nest.",
+    "symbol": "~",
+    "color": "red",
+    "material": [ "flesh" ],
+    "weight": "25 g",
+    "volume": "25 ml",
+    "comestible_type": "INVALID",
+    "calories": 10,
+    "spoils_in": 600,
+    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ],
+    "phase": "liquid",
+    "charges": 1
+  }
+]
