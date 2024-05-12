@@ -12,9 +12,7 @@
     "comestible_type": "INVALID",
     "calories": 10,
     "spoils_in": 600,
-    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ],
-    "phase": "liquid",
-    "charges": 1
+    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ]
   },
   {
     "id": "nutrifluid_plant",
@@ -29,9 +27,7 @@
     "comestible_type": "INVALID",
     "calories": 10,
     "spoils_in": 600,
-    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ],
-    "phase": "liquid",
-    "charges": 1
+    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ]
   },
   {
     "id": "nutrifluid_meat",
@@ -46,8 +42,6 @@
     "comestible_type": "INVALID",
     "calories": 10,
     "spoils_in": 600,
-    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ],
-    "phase": "liquid",
-    "charges": 1
+    "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ]
   }
 ]

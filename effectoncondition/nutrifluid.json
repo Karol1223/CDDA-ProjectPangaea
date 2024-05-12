@@ -1,0 +1,24 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_NUTRIFLUID",
+    "effect": [
+      { "math": [ "u_amount_of_calories_for_nutrifluid", "=", "0" ] },
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "calories": 1 } ],
+        "true_eocs": [ "EOC_COUNT_NUTRIFLUID" ]
+      },
+      { "u_spawn_item": "nutrifluid_temporary", "count": { "math": [ "u_amount_of_calories_for_nutrifluid / 10" ] } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_COUNT_NUTRIFLUID",
+    "effect": [
+      { "math": [ "u_amount_of_calories_for_nutrifluid", "+=", "n_calories()" ] },
+      "npc_die",
+      { "u_message": "added calories, now calories amount is:  <u_val:amount_of_calories_for_nutrifluid>" }
+    ]
+  }
+]
