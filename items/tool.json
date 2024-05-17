@@ -28,7 +28,7 @@
     "charges_per_use": 50,
     "symbol": "8",
     "color": "red",
-    "material": [ "steel" ],
+    "material": [ "aluminum" ],
     "longest_side": "150 cm",
     "volume": "400 L",
     "weight": "145 kg",
@@ -52,7 +52,7 @@
     "charges_per_use": 50,
     "symbol": "8",
     "color": "green",
-    "material": [ "steel" ],
+    "material": [ "aluminum" ],
     "longest_side": "150 cm",
     "volume": "400 L",
     "weight": "145 kg",
@@ -67,7 +67,7 @@
     "looks_like": "cordless_drill",
     "symbol": "F",
     "color": "green",
-    "material": [ "steel" ],
+    "material": [ "aluminum" ],
     "longest_side": "22 cm",
     "volume": "750 ml",
     "weight": "2721 g",
@@ -80,5 +80,28 @@
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "type": "TOOL",
+    "id": "nutrient_extruder",
+    "symbol": ",",
+    "color": "light_gray",
+    "looks_like": "microwave",
+    "name": { "str": "Nutrient Extruder" },
+    "description": "A peculiar device resembling a microwave.  On the side of it are instructions that explain how it can be used to manufacture nutritional medium.",
+    "material": [ "aluminum" ],
+    "weight": "11339 g",
+    "volume": "9 L",
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Mix into medium",
+        "description": "Pick items to turn into nutritional medium.",
+        "effect_on_conditions": [ "EOC_NUTRIFLUID" ]
+      },
+      { "type": "link_up", "cable_length": 5, "charge_rate": "140 W" }
+    ],
+    "flags": [ "ELECTRONIC", "ALLOWS_REMOTE_USE" ],
+    "charges_per_use": 50
   }
 ]

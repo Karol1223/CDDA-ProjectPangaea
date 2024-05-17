@@ -63,6 +63,7 @@
     "items": [
       { "group": "tools_science", "prob": 350 },
       { "item": "sampler", "prob": 45 },
+      { "item": "nutrient_extruder", "prob": 45 },
       { "item": "genome_canvas", "prob": 75, "count": [ 1, 10 ] },
       { "group": "fossil_any", "prob": 350, "count": [ 1, 6 ] }
     ]
