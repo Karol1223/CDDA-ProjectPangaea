@@ -3,6 +3,7 @@
     "type": "effect_on_condition",
     "id": "EOC_ANALYZER_UNLOCK_RECIPES",
     "effect": [
+      { "math": [ "recipes_learned", "=", "0" ] },
       {
         "u_run_inv_eocs": "manual",
         "true_eocs": [
@@ -56,7 +57,12 @@
           "EOC_ANALYZER_ZEBRA_DANIO",
           "EOC_ANALYZER_URCHIN_ATLANTIC_PURPLE"
         ]
-      }
+      },
+      {
+        "if": { "math": [ "recipes_learned", "==", "0" ] },
+        "else": { "u_message": "No new recipes can be obtained from analyzing this.", "type": "bad" }
+      },
+      { "math": [ "recipes_learned", "=", "0" ] }
     ]
   },
   {
@@ -66,6 +72,7 @@
     "//2": "then store name of the item we want to check in `item_to_analyze`. We will compare them in the next EoC",
     "//3": "all because there is no way to return the id of beta talker on demand",
     "effect": [
+      { "math": [ "recipes_learned", "++" ] },
       { "set_string_var": "<npc_name>", "target_var": { "context_val": "found_item_name" }, "parse_tags": true },
       {
         "set_string_var": "<item_name:<context_val:item_to_analyze>>",
@@ -88,14 +95,14 @@
         "if": { "compare_string": [ "", { "context_val": "recipe_to_give_1" } ] },
         "else": [
           { "u_learn_recipe": { "context_val": "recipe_to_give_1" } },
-          { "u_message": "Learned <context_val:recipe_to_give_1>" }
+          { "u_message": "New recipe learned: <context_val:recipe_to_give_1>!", "type": "good" }
         ]
       },
       {
         "if": { "compare_string": [ "", { "context_val": "recipe_to_give_2" } ] },
         "else": [
           { "u_learn_recipe": { "context_val": "recipe_to_give_2" } },
-          { "u_message": "Learned <context_val:recipe_to_give_2>" }
+          { "u_message": "New recipe learned: <context_val:recipe_to_give_2>!", "type": "good" }
         ]
       }
     ]
