@@ -1,3 +1,6 @@
+# DISCLAIMER
+**This mod is in a barely functional beta stage. It is entirely possible it might be unplayable without using debug.**
+
 # What is Project Pangaea?
 Project Pangaea is a dinosaur mod created on the same basis as games like Jurassic Park: Operation Genesis or Jurassic World: Evolution. While DinoMod offers a world with dinosaurs in it, Project Pangaea aims to give you the tool to bring dinosaurs to this world yourself. The mod is very much leaning in the direction of Jurassic Park-esque science fiction with the entire genetics and cloning aspect.
 
