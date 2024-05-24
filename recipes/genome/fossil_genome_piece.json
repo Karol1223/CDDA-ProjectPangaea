@@ -12,6 +12,7 @@
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
     "components": [ [ [ "fossil_triassic", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "byproducts": [ [ "material_gravel", 162 ] ],
     "result_eocs": [
       {
         "id": "get_triassic_genome_shard_random",
@@ -32,6 +33,7 @@
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
     "components": [ [ [ "fossil_jurassic", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "byproducts": [ [ "material_gravel", 162 ] ],
     "result_eocs": [
       {
         "id": "get_jurassic_genome_shard_random",
@@ -52,6 +54,7 @@
     "time": "5 m",
     "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
     "components": [ [ [ "fossil_cretaceous", 1 ] ], [ [ "genome_canvas", 1 ] ] ],
+    "byproducts": [ [ "material_gravel", 162 ] ],
     "result_eocs": [
       {
         "id": "get_cretaceous_genome_shard_random",
