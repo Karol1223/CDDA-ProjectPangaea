@@ -5,7 +5,6 @@
     "name": { "str_sp": "blank genome canvas" },
     "description": "A portable storage device holding the software necessary to inprint the entire genome of a living creature.",
     "category": "spare_parts",
-    "looks_like": "usb_drive",
     "symbol": "0",
     "color": "green",
     "material": [ "aluminum" ],
