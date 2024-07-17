@@ -2,22 +2,11 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_SAMPLER_FLORA",
-    "effect": [
-      {
-        "run_eocs": [
-          "EOC_SAMPLER_JAPANESE_KNOTWEED",
-          "EOC_SAMPLER_BLACK_EYED_SUSAN",
-          "EOC_SAMPLER_CHAMOMILE",
-          "EOC_SAMPLER_SASSAFRAS",
-          "EOC_SAMPLER_BEECH"
-        ]
-      }
-    ],
-    "false_effect": [ { "u_message": "Nothing to sample here." } ]
+    "effect": [ { "run_eocs": [ "EOC_SAMPLER_IMPL" ] } ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_SAMPLER_ABSTRACT_FURNITURE",
+    "id": "EOC_SAMPLER_IMPL",
     "condition": {
       "and": [
         {
@@ -25,84 +14,38 @@
           "target_var": { "context_val": "check_terrain" },
           "message": "Choose a tile to get a sample from.",
           "range": 1
-        },
-        { "map_furniture_id": { "context_val": "furniture_id" }, "loc": { "context_val": "check_terrain" } }
-      ]
-    },
-    "effect": [ { "u_spawn_item": { "context_val": "result_sample" }, "suppress_message": true } ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_SAMPLER_ABSTRACT_TERRAIN_DOUBLE",
-    "condition": {
-      "and": [
-        {
-          "u_query_tile": "line_of_sight",
-          "target_var": { "context_val": "check_terrain" },
-          "message": "Choose a tile to get a sample from.",
-          "range": 1
-        },
-        {
-          "or": [
-            { "map_terrain_id": { "context_val": "terrain_id_1" }, "loc": { "context_val": "check_terrain" } },
-            { "map_terrain_id": { "context_val": "terrain_id_2" }, "loc": { "context_val": "check_terrain" } }
-          ]
         }
       ]
     },
-    "effect": [ { "u_spawn_item": { "context_val": "result_sample" }, "suppress_message": true } ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_SAMPLER_JAPANESE_KNOTWEED",
     "effect": [
       {
-        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_FURNITURE",
-        "variables": { "furniture_id": "f_japanese_knotweed", "result_sample": "tissue_sample_japanese_knotweed" }
-      }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_SAMPLER_BLACK_EYED_SUSAN",
-    "effect": [
-      {
-        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_FURNITURE",
-        "variables": { "furniture_id": "f_black_eyed_susan", "result_sample": "tissue_sample_black_eyed_susan" }
-      }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_SAMPLER_CHAMOMILE",
-    "effect": [
-      {
-        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_FURNITURE",
-        "variables": { "furniture_id": "f_chamomile", "result_sample": "tissue_sample_chamomile" }
-      }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_SAMPLER_SASSAFRAS",
-    "effect": [
-      {
-        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_TERRAIN_DOUBLE",
-        "variables": {
-          "terrain_id_1": "t_tree_sassafras",
-          "terrain_id_2": "t_tree_sassafras_harvested",
-          "result_sample": "tissue_sample_sassafras"
+        "if": { "map_furniture_id": "f_japanese_knotweed", "loc": { "context_val": "check_terrain" } },
+        "then": { "u_spawn_item": "tissue_sample_japanese_knotweed", "suppress_message": true },
+        "else": {
+          "if": { "map_furniture_id": "f_black_eyed_susan", "loc": { "context_val": "check_terrain" } },
+          "then": { "u_spawn_item": "tissue_sample_black_eyed_susan", "suppress_message": true },
+          "else": {
+            "if": { "map_furniture_id": "f_chamomile", "loc": { "context_val": "check_terrain" } },
+            "then": { "u_spawn_item": "tissue_sample_chamomile", "suppress_message": true },
+            "else": {
+              "if": { "map_terrain_id": "t_tree_sassafras", "loc": { "context_val": "check_terrain" } },
+              "then": { "u_spawn_item": "tissue_sample_sassafras", "suppress_message": true },
+              "else": {
+                "if": { "map_terrain_id": "t_tree_sassafras_harvested", "loc": { "context_val": "check_terrain" } },
+                "then": { "u_spawn_item": "tissue_sample_sassafras", "suppress_message": true },
+                "else": {
+                  "if": { "map_terrain_id": "t_tree_beech", "loc": { "context_val": "check_terrain" } },
+                  "then": { "u_spawn_item": "tissue_sample_sassafras", "suppress_message": true },
+                  "else": {
+                    "if": { "map_terrain_id": "t_tree_beech", "loc": { "context_val": "check_terrain" } },
+                    "then": { "u_spawn_item": "t_tree_beech_harvested", "suppress_message": true },
+                    "else": { "u_message": "Nothing to sample here." }
+                  }
+                }
+              }
+            }
+          }
         }
-      }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_SAMPLER_BEECH",
-    "effect": [
-      {
-        "run_eoc_with": "EOC_SAMPLER_ABSTRACT_TERRAIN_DOUBLE",
-        "variables": { "terrain_id_1": "t_tree_beech", "terrain_id_2": "t_tree_beech_harvested", "result_sample": "tissue_sample_beech" }
       }
     ]
   }
