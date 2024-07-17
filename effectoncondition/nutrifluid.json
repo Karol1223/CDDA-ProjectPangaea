@@ -18,7 +18,10 @@
     "effect": [
       { "math": [ "u_amount_of_calories_for_nutrifluid", "+=", "n_calories()" ] },
       "npc_die",
-      { "u_message": "added calories, now calories amount is:  <u_val:amount_of_calories_for_nutrifluid>" }
+      {
+        "u_message": "added calories, now calories amount is:  <u_val:amount_of_calories_for_nutrifluid>",
+        "type": "debug"
+      }
     ]
   }
 ]
