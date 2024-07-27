@@ -9,9 +9,7 @@
     "color": "light_gray",
     "material": [ "stone" ],
     "weight": "1300 g",
-    "volume": "1 L",
-    "to_hit": -1,
-    "melee_damage": { "bash": 7 }
+    "volume": "1 L"
   },
   {
     "type": "GENERIC",
