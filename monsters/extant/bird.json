@@ -27,18 +27,7 @@
     "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
     "reproduction": { "baby_egg": "egg_ostrich", "baby_count": 1, "baby_timer": 5 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "PUSH_MON",
-      "ANIMAL",
-      "PATH_AVOID_FIRE",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "CAN_BE_CULLED",
-      "CORNERED_FIGHTER",
-      "EATS"
-    ],
+    "flags": [ "SEES", "HEARS", "PUSH_MON", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "CAN_BE_CULLED", "CORNERED_FIGHTER", "EATS" ],
     "anger_triggers": [ "HURT", "PLAYER_NEAR_BABY" ],
     "fear_triggers": [ "FIRE" ]
   },
