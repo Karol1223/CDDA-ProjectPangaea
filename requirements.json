@@ -142,5 +142,65 @@
         [ "seed_japanese_knotweed", 1 ]
       ]
     ]
+  },
+  {
+    "id": "cloning_microorganism",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 200 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 1 ] ] ]
+  },
+  {
+    "id": "cloning_eukaryote_simple",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 1500 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 4 ] ] ]
+  },
+  {
+    "id": "cloning_flora",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 4500 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 20 ] ] ]
+  },
+  {
+    "id": "cloning_invert_simple",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 7500 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 60 ] ] ]
+  },
+  {
+    "id": "cloning_invert_complex",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 12500 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 100 ] ] ]
+  },
+  {
+    "id": "cloning_fish",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 20000 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 250 ] ] ]
+  },
+  {
+    "id": "cloning_amphibian",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 32500 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 450 ] ] ]
+  },
+  {
+    "id": "cloning_reptile",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 55000 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 750 ] ] ]
+  },
+  {
+    "id": "cloning_bird",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 87500 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 1250 ] ] ]
+  },
+  {
+    "id": "cloning_mammal",
+    "type": "requirement",
+    "tools": [ [ [ "gaia_nest", 95000 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 2000 ] ] ]
   }
 ]

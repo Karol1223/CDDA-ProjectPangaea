@@ -1,0 +1,12 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_E_COLI",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "genome_E_coli", "recipe_to_give_1": "petri_dish_E_coli" }
+      }
+    ]
+  }
+]

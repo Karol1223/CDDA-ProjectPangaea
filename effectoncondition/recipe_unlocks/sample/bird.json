@@ -1,7 +1,7 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "EOC_ANALYZER_CHICKEN",
+    "id": "EOC_ANALYZER_CHICKEN_1",
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
@@ -15,7 +15,17 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_ANALYZER_PIGEON",
+    "id": "EOC_ANALYZER_CHICKEN_2",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "genome_chicken", "recipe_to_give_1": "egg_clone_chicken" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_PIGEON_1",
     "effect": [
       {
         "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
@@ -24,6 +34,16 @@
           "recipe_to_give_1": "genome_pigeon",
           "recipe_to_give_2": "egg_clone_pigeon"
         }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANALYZER_PIGEON_2",
+    "effect": [
+      {
+        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "variables": { "item_to_analyze": "genome_pigeon", "recipe_to_give_1": "egg_clone_pigeon" }
       }
     ]
   },

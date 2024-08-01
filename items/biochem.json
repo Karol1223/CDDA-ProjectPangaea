@@ -43,5 +43,41 @@
     "calories": 10,
     "spoils_in": 600,
     "flags": [ "NO_AUTO_CONSUME", "TRADER_AVOID" ]
+  },
+  {
+    "id": "bacterial_medium",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "bacterial medium" },
+    "description": "An orange-hued gelatinous substance commonly used as a source of nutrition for bacterial colonies.",
+    "comestible_type": "INVALID",
+    "symbol": "~",
+    "color": "light_red",
+    "material": [ "water" ],
+    "weight": "20 g",
+    "volume": "20 ml",
+    "phase": "liquid",
+    "spoils_in": "7 days",
+    "charges": 1
+  },
+  {
+    "abstract": "petri_dish_colony_abstract",
+    "type": "COMESTIBLE",
+    "name": { "str": "abstract bacterial culture" },
+    "description": "A Petri dish with an abstract bacterial culture growing on it.",
+    "comestible_type": "INVALID",
+    "symbol": "u",
+    "color": "light_red",
+    "material": [ "glass" ],
+    "weight": "45 g",
+    "volume": "145 ml",
+    "longest_side": "96 mm",
+    "spoils_in": "7 days"
+  },
+  {
+    "id": "petri_dish_E_coli",
+    "type": "GENERIC",
+    "name": { "str": "E. coli bacterial culture" },
+    "description": "A Petri dish with a E. coli bacterial culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract"
   }
 ]

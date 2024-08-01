@@ -1,0 +1,18 @@
+[
+  {
+    "type": "recipe",
+    "result": "petri_dish_E_coli",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_PANGAEA",
+    "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
+    "skill_used": "genetics",
+    "difficulty": 1,
+    "skills_required": [ "chemistry", 1 ],
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 20, "LIST" ] ], [ [ "genome_E_coli", -1 ] ] ],
+    "using": [ [ "cloning_microorganism", 1 ] ],
+    "components": [ [ [ "petri_dish", 1 ] ], [ [ "bacterial_medium", 1 ] ] ]
+  }
+]

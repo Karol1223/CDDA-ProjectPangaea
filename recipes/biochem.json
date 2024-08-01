@@ -1,0 +1,50 @@
+[
+  {
+    "type": "recipe",
+    "result": "bacterial_medium",
+    "id_suffix": "peptone_broth",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 1,
+    "time": "15 m",
+    "autolearn": true,
+    "charges": 50,
+    "tools": [
+      [ [ "pressure_cooker", -1 ], [ "makeshift_pressure_cooker", -1 ] ],
+      [ [ "water_boiling_heat", 1, "LIST" ] ],
+      [ [ "water", -1 ], [ "water_clean", -1 ] ]
+    ],
+    "components": [
+      [ [ "chem_peptone_broth", 15 ] ],
+      [ [ "chem_agar", 15 ], [ "gelatin_powder", 2 ], [ "gelatin_fresh", 3 ] ],
+      [ [ "water_clean", 4 ] ]
+    ],
+    "//": "Both recipes based on https://teach.genetics.utah.edu/content/microbiology/"
+  },
+  {
+    "type": "recipe",
+    "result": "bacterial_medium",
+    "id_suffix": "beef_broth",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "charges": 50,
+    "tools": [
+      [ [ "pressure_cooker", -1 ], [ "makeshift_pressure_cooker", -1 ] ],
+      [ [ "water_boiling_heat", 1, "LIST" ] ],
+      [ [ "water", -1 ], [ "water_clean", -1 ] ]
+    ],
+    "components": [
+      [ [ "broth_meat", 2 ] ],
+      [ [ "chem_agar", 15 ], [ "gelatin_powder", 2 ], [ "gelatin_fresh", 3 ] ],
+      [ [ "water_clean", 4 ] ]
+    ],
+    "//": "Both recipes based on https://teach.genetics.utah.edu/content/microbiology/"
+  }
+]
