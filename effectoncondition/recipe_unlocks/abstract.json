@@ -63,7 +63,7 @@
       },
       {
         "if": { "math": [ "recipes_learned", "==", "0" ] },
-        "else": { "u_message": "No new recipes can be obtained from analyzing this.", "type": "bad" }
+        "then": { "u_message": "No new recipes can be obtained from analyzing this.", "type": "bad" }
       },
       { "math": [ "recipes_learned", "=", "0" ] }
     ]
@@ -75,7 +75,6 @@
     "//2": "then store name of the item we want to check in `item_to_analyze`. We will compare them in the next EoC",
     "//3": "all because there is no way to return the id of beta talker on demand",
     "effect": [
-      { "math": [ "recipes_learned", "++" ] },
       { "set_string_var": "<npc_name>", "target_var": { "context_val": "found_item_name" }, "parse_tags": true },
       {
         "set_string_var": "<item_name:<context_val:item_to_analyze>>",
@@ -94,6 +93,7 @@
     "//1": "u_learn_recipe won't do anything if avatar already knows the recipe, no reason to use u_know_recipe",
     "//2": "but u_learn_recipe with empty string (and undefined variables are assumed to be empty strings) will cause an error, so check variable is valid first, then give the recipe",
     "effect": [
+      { "math": [ "recipes_learned", "++" ] },
       {
         "if": { "compare_string": [ "", { "context_val": "recipe_to_give_1" } ] },
         "else": [
