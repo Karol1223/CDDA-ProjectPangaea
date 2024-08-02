@@ -6,9 +6,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 3,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 7,
+    "time": "30 m",
+    "using": [ [ "analysis_amphibian", 1 ] ],
     "components": [ [ [ "tissue_sample_axolotl", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -18,9 +18,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 3,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 7,
+    "time": "30 m",
+    "using": [ [ "analysis_amphibian", 1 ] ],
     "components": [ [ [ "tissue_sample_frog_african_clawed", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   }
 ]

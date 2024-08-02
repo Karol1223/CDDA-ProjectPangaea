@@ -7,9 +7,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SEEDS",
     "skill_used": "genetics",
-    "difficulty": 2,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_corn", -1 ] ] ],
+    "difficulty": 3,
+    "time": "15 m",
+    "using": [ [ "cloning_flora", 1 ] ],
+    "tools": [ [ [ "genome_corn", -1 ] ] ],
     "components": [ [ [ "seed_any", 1, "LIST" ] ] ]
   },
   {
@@ -20,9 +21,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SEEDS",
     "skill_used": "genetics",
-    "difficulty": 2,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_japanese_knotweed", -1 ] ] ],
+    "difficulty": 3,
+    "time": "15 m",
+    "using": [ [ "cloning_flora", 1 ] ],
+    "tools": [ [ [ "genome_japanese_knotweed", -1 ] ] ],
     "components": [ [ [ "seed_any", 1, "LIST" ] ] ]
   },
   {
@@ -33,9 +35,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SEEDS",
     "skill_used": "genetics",
-    "difficulty": 2,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_chamomile", -1 ] ] ],
+    "difficulty": 3,
+    "time": "15 m",
+    "using": [ [ "cloning_flora", 1 ] ],
+    "tools": [ [ [ "genome_chamomile", -1 ] ] ],
     "components": [ [ [ "seed_any", 1, "LIST" ] ] ]
   }
 ]

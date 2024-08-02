@@ -6,9 +6,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 3,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 10,
+    "time": "45 m",
+    "using": [ [ "analysis_bird_mammal", 1 ] ],
     "components": [ [ [ "tissue_sample_chicken", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -18,9 +18,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 3,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 10,
+    "time": "45 m",
+    "using": [ [ "analysis_bird_mammal", 1 ] ],
     "components": [ [ [ "tissue_sample_pigeon", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -30,9 +30,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 3,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 10,
+    "time": "45 m",
+    "using": [ [ "analysis_bird_mammal", 1 ] ],
     "components": [ [ [ "tissue_sample_goose_canadian", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -42,9 +42,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 3,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 10,
+    "time": "45 m",
+    "using": [ [ "analysis_bird_mammal", 1 ] ],
     "components": [ [ [ "tissue_sample_ostrich", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   }
 ]

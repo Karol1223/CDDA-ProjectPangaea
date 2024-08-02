@@ -6,9 +6,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "empty_corn_cob", 1 ], [ "corn", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -18,9 +18,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "tissue_sample_japanese_knotweed", 1 ], [ "japanese_knotweed_stem", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -30,9 +30,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "tissue_sample_black_eyed_susan", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -42,9 +42,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "tissue_sample_chamomile", 1 ], [ "chamomile", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -54,9 +54,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "tissue_sample_sassafras", 1 ], [ "sassafras_root", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -66,9 +66,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "tissue_sample_beech", 1 ], [ "beech_nuts", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -78,9 +78,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "tissue_sample_thale_cress", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   },
   {
@@ -90,9 +90,9 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_SAMPLE ANALYSIS",
     "skill_used": "genetics",
-    "difficulty": 1,
-    "time": "5 m",
-    "tools": [ [ [ "DNA_analyzer", 50 ] ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "using": [ [ "analysis_flora", 1 ] ],
     "components": [ [ [ "tissue_sample_selaginella", 1 ] ], [ [ "genome_canvas", 1 ] ] ]
   }
 ]

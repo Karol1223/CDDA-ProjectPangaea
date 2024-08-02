@@ -10,9 +10,9 @@
     "skills_required": [ "chemistry", 1 ],
     "time": "15 m",
     "autolearn": true,
+    "using": [ [ "cloning_microorganism", 1 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ], [ [ "genome_E_coli", -1 ] ] ],
-    "using": [ [ "cloning_microorganism", 1 ] ],
     "components": [ [ [ "petri_dish", 1 ] ], [ [ "bacterial_medium", 1 ] ] ]
   }
 ]

@@ -6,9 +6,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_coelophysis", -1 ] ] ],
+    "difficulty": 9,
+    "time": "7 h",
+    "using": [ [ "cloning_dinosaur_synapsid", 1 ] ],
+    "tools": [ [ [ "genome_coelophysis", -1 ] ] ],
     "components": [ [ [ "egg_surrogate_S", 1, "LIST" ] ] ]
   },
   {
@@ -18,9 +19,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_velociraptor", -1 ] ] ],
+    "difficulty": 9,
+    "time": "7 h",
+    "using": [ [ "cloning_dinosaur_synapsid", 1 ] ],
+    "tools": [ [ [ "genome_velociraptor", -1 ] ] ],
     "components": [ [ [ "egg_surrogate_S", 1, "LIST" ] ] ]
   },
   {
@@ -30,9 +32,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_dilophosaurus", -1 ] ] ],
+    "difficulty": 9,
+    "time": "7 h",
+    "using": [ [ "cloning_dinosaur_synapsid", 1 ] ],
+    "tools": [ [ [ "genome_dilophosaurus", -1 ] ] ],
     "components": [ [ [ "egg_goose_canadian", 1 ] ] ]
   },
   {
@@ -42,9 +45,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_tyrannosaurus", -1 ] ] ],
+    "difficulty": 9,
+    "time": "7 h",
+    "using": [ [ "cloning_dinosaur_synapsid", 1 ] ],
+    "tools": [ [ [ "genome_tyrannosaurus", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
   },
   {
@@ -54,9 +58,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_triceratops", -1 ] ] ],
+    "difficulty": 9,
+    "time": "7 h",
+    "using": [ [ "cloning_dinosaur_synapsid", 1 ] ],
+    "tools": [ [ [ "genome_triceratops", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
   },
   {
@@ -66,9 +71,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_stegosaurus", -1 ] ] ],
+    "difficulty": 9,
+    "time": "7 h",
+    "using": [ [ "cloning_dinosaur_synapsid", 1 ] ],
+    "tools": [ [ [ "genome_stegosaurus", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
   },
   {
@@ -78,9 +84,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_brachiosaurus", -1 ] ] ],
+    "difficulty": 9,
+    "time": "7 h",
+    "using": [ [ "cloning_dinosaur_synapsid", 1 ] ],
+    "tools": [ [ [ "genome_brachiosaurus", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
   },
   {
@@ -90,9 +97,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_pteranodon", -1 ] ] ],
+    "difficulty": 8,
+    "time": "5 h",
+    "using": [ [ "cloning_reptile", 1 ] ],
+    "tools": [ [ [ "genome_pteranodon", -1 ] ] ],
     "components": [ [ [ "egg_goose_canadian", 1 ] ] ]
   },
   {
@@ -103,8 +111,9 @@
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
     "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_xiphactinus", -1 ] ] ],
+    "time": "2 h",
+    "using": [ [ "cloning_fish", 1 ] ],
+    "tools": [ [ [ "genome_xiphactinus", -1 ] ] ],
     "components": [ [ [ "roe_saltwater", 1, "LIST" ] ] ]
   },
   {
@@ -114,9 +123,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_chicken", -1 ] ] ],
+    "difficulty": 10,
+    "time": "10 h",
+    "using": [ [ "cloning_bird_mammal", 1 ] ],
+    "tools": [ [ [ "genome_chicken", -1 ] ] ],
     "components": [ [ [ "egg_surrogate_XS", 1, "LIST" ] ] ]
   },
   {
@@ -126,9 +136,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_chicken", -1 ] ] ],
+    "difficulty": 10,
+    "time": "10 h",
+    "using": [ [ "cloning_bird_mammal", 1 ] ],
+    "tools": [ [ [ "genome_chicken", -1 ] ] ],
     "components": [ [ [ "egg_surrogate_S", 1, "LIST" ] ] ]
   },
   {
@@ -138,9 +149,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_goose_canadian", -1 ] ] ],
+    "difficulty": 10,
+    "time": "10 h",
+    "using": [ [ "cloning_bird_mammal", 1 ] ],
+    "tools": [ [ [ "genome_goose_canadian", -1 ] ] ],
     "components": [ [ [ "egg_goose_canadian", 1 ] ] ]
   },
   {
@@ -150,9 +162,10 @@
     "category": "CC_PANGAEA",
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
-    "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_ostrich", -1 ] ] ],
+    "difficulty": 10,
+    "time": "10 h",
+    "using": [ [ "cloning_bird_mammal", 1 ] ],
+    "tools": [ [ [ "genome_ostrich", -1 ] ] ],
     "components": [ [ [ "egg_ostrich", 1 ] ] ]
   },
   {
@@ -163,8 +176,9 @@
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
     "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_salmon", -1 ] ] ],
+    "time": "2 h",
+    "using": [ [ "cloning_fish", 1 ] ],
+    "tools": [ [ [ "genome_salmon", -1 ] ] ],
     "components": [ [ [ "roe_freshwater", 1, "LIST" ] ] ]
   },
   {
@@ -175,8 +189,9 @@
     "subcategory": "CSC_PANGAEA_EGGS",
     "skill_used": "genetics",
     "difficulty": 6,
-    "time": "5 m",
-    "tools": [ [ [ "gaia_nest", 50 ] ], [ [ "genome_bluefin_tuna", -1 ] ] ],
+    "time": "2 h",
+    "using": [ [ "cloning_fish", 1 ] ],
+    "tools": [ [ [ "genome_bluefin_tuna", -1 ] ] ],
     "components": [ [ [ "roe_saltwater", 1, "LIST" ] ] ]
   }
 ]

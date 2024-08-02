@@ -144,6 +144,59 @@
     ]
   },
   {
+    "id": "analysis_microorganism",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 100 ] ] ]
+  },
+  {
+    "id": "analysis_eukaryote_simple",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 750 ] ] ]
+  },
+  {
+    "id": "analysis_flora",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 3250 ] ] ]
+  },
+  {
+    "id": "analysis_invert_simple",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 6125 ] ] ],
+    "//": "Sponges, cnidarians, annelids, echinoderms, other similarly primitive invertebrates."
+  },
+  {
+    "id": "analysis_invert_complex",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 10000 ] ] ],
+    "//1": "Arthropods, molllusks, and tunicates.",
+    "//2": "This exact amount is also to be used for analyzing fossils for incomplete genomes - since they're incomplete they'd take less energy, but likely more time."
+  },
+  {
+    "id": "analysis_fish",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 17500 ] ] ]
+  },
+  {
+    "id": "analysis_amphibian",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 27500 ] ] ]
+  },
+  {
+    "id": "analysis_reptile",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 35000 ] ] ]
+  },
+  {
+    "id": "analysis_dinosaur_synapsid",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 42500 ] ] ]
+  },
+  {
+    "id": "analysis_bird_mammal",
+    "type": "requirement",
+    "tools": [ [ [ "DNA_analyzer", 46250 ] ] ]
+  },
+  {
     "id": "cloning_microorganism",
     "type": "requirement",
     "tools": [ [ [ "gaia_nest", 200 ] ] ],
@@ -158,49 +211,51 @@
   {
     "id": "cloning_flora",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 4500 ] ] ],
+    "tools": [ [ [ "gaia_nest", 7500 ] ] ],
     "components": [ [ [ "nutrifluid_temporary", 20 ] ] ]
   },
   {
     "id": "cloning_invert_simple",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 7500 ] ] ],
-    "components": [ [ [ "nutrifluid_temporary", 60 ] ] ]
+    "tools": [ [ [ "gaia_nest", 12500 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 60 ] ] ],
+    "//": "Sponges, cnidarians, annelids, echinoderms, other similarly primitive invertebrates."
   },
   {
     "id": "cloning_invert_complex",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 12500 ] ] ],
-    "components": [ [ [ "nutrifluid_temporary", 100 ] ] ]
+    "tools": [ [ [ "gaia_nest", 20000 ] ] ],
+    "components": [ [ [ "nutrifluid_temporary", 100 ] ] ],
+    "//": "Arthropods, molllusks, and tunicates."
   },
   {
     "id": "cloning_fish",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 20000 ] ] ],
+    "tools": [ [ [ "gaia_nest", 35000 ] ] ],
     "components": [ [ [ "nutrifluid_temporary", 250 ] ] ]
   },
   {
     "id": "cloning_amphibian",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 32500 ] ] ],
+    "tools": [ [ [ "gaia_nest", 55000 ] ] ],
     "components": [ [ [ "nutrifluid_temporary", 450 ] ] ]
   },
   {
     "id": "cloning_reptile",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 55000 ] ] ],
+    "tools": [ [ [ "gaia_nest", 70000 ] ] ],
     "components": [ [ [ "nutrifluid_temporary", 750 ] ] ]
   },
   {
-    "id": "cloning_bird",
+    "id": "cloning_dinosaur_synapsid",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 87500 ] ] ],
+    "tools": [ [ [ "gaia_nest", 85000 ] ] ],
     "components": [ [ [ "nutrifluid_temporary", 1250 ] ] ]
   },
   {
-    "id": "cloning_mammal",
+    "id": "cloning_bird_mammal",
     "type": "requirement",
-    "tools": [ [ [ "gaia_nest", 95000 ] ] ],
+    "tools": [ [ [ "gaia_nest", 92500 ] ] ],
     "components": [ [ [ "nutrifluid_temporary", 2000 ] ] ]
   }
 ]
