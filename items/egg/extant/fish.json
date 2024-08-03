@@ -5,7 +5,8 @@
     "name": { "str": "cloned Atlantic salmon roe" },
     "description": "A cluster of freshwater fish roe implanted with Atlantic salmon embryos.  It is guaranteed to hatch.",
     "copy-from": "egg_salmon",
-    "rot_spawn_chance": 100
+    "rot_spawn_chance": 100,
+    "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   },
   {
     "type": "COMESTIBLE",
@@ -13,6 +14,7 @@
     "name": { "str": "cloned Atlantic bluefin tuna roe" },
     "description": "A cluster of saltwater fish roe implanted with Atlantic bluefin tuna embryos.  It is guaranteed to hatch.",
     "copy-from": "egg_bluefin_tuna",
-    "rot_spawn_chance": 100
+    "rot_spawn_chance": 100,
+    "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   }
 ]
