@@ -46,5 +46,71 @@
       [ [ "water_clean", 4 ] ]
     ],
     "//": "Both recipes based on https://teach.genetics.utah.edu/content/microbiology/"
+  },
+  {
+    "type": "recipe",
+    "result": "petri_dish_soil_narrowspectrum",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 1,
+    "time": "1 m",
+    "components": [ [ [ "petri_dish_soil", 1 ] ], [ [ "weak_antibiotic", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "petri_dish_soil_broadspectrum",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 1,
+    "time": "1 m",
+    "components": [ [ [ "petri_dish_soil", 1 ] ], [ [ "strong_antibiotic", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "petri_dish_leaf_litter_narrowspectrum",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 1,
+    "time": "1 m",
+    "components": [ [ [ "petri_dish_leaf_litter", 1 ] ], [ [ "weak_antibiotic", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "petri_dish_leaf_litter_broadspectrum",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 1,
+    "time": "1 m",
+    "components": [ [ [ "petri_dish_leaf_litter", 1 ] ], [ [ "strong_antibiotic", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "petri_dish_freshwater_narrowspectrum",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 1,
+    "time": "1 m",
+    "components": [ [ [ "petri_dish_freshwater", 1 ] ], [ [ "weak_antibiotic", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "petri_dish_freshwater_broadspectrum",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 1,
+    "time": "1 m",
+    "components": [ [ [ "petri_dish_freshwater", 1 ] ], [ [ "strong_antibiotic", 1 ] ] ]
   }
 ]

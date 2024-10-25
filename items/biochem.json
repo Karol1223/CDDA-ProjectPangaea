@@ -74,10 +74,167 @@
     "spoils_in": "7 days"
   },
   {
+    "abstract": "petri_dish_colony_abstract_fastdecay",
+    "type": "COMESTIBLE",
+    "name": { "str": "abstract bacterial culture" },
+    "copy-from": "petri_dish_colony_abstract",
+    "spoils_in": "2 days"
+  },
+  {
+    "id": "petri_dish_soil",
+    "type": "GENERIC",
+    "name": { "str": "soil environmental sample" },
+    "description": "A Petri dish with a sample of soil.  You're going to have to do more work to get a single-species colony from this.",
+    "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_soil_narrowspectrum",
+    "type": "GENERIC",
+    "name": {
+      "str": "soil environmental sample with narrow-spectrum antibiotics",
+      "str_pl": "soil environmental samples with narrow-spectrum antibiotics"
+    },
+    "description": "A Petri dish with a sample of soil and a dose of narrow-spectrum antibiotics.  Check on it in about 24 hours.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay",
+    "countdown_interval": "24 hours",
+    "countdown_action": {
+      "type": "effect_on_conditions",
+      "effect_on_conditions": [
+        {
+          "id": "SOIL_NARROWSPECTRUM_RANDOM",
+          "effect": [
+            { "set_string_var": { "mutator": "npc_loc_relative", "target": "(0,0,0)" }, "target_var": { "context_val": "loc" } },
+            { "map_spawn_item": "soil_narrowspectrum", "use_item_group": true, "loc": { "context_val": "loc" } }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "petri_dish_soil_broadspectrum",
+    "type": "GENERIC",
+    "name": {
+      "str": "soil environmental sample with broad-spectrum antibiotics",
+      "str_pl": "soil environmental samples with broad-spectrum antibiotics"
+    },
+    "description": "A Petri dish with a sample of soil and a dose of broad-spectrum antibiotics.  Check on it in about 24 hours.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
+    "id": "petri_dish_leaf_litter",
+    "type": "GENERIC",
+    "name": { "str": "leaf litter environmental sample" },
+    "description": "A Petri dish with a sample of leaf litter.  You're going to have to do more work to get a single-species colony from this.",
+    "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_leaf_litter_narrowspectrum",
+    "type": "GENERIC",
+    "name": {
+      "str": "leaf litter environmental sample with narrow-spectrum antibiotics",
+      "str_pl": "leaf litter environmental samples with narrow-spectrum antibiotics"
+    },
+    "description": "A Petri dish with a sample of leaf litter and a dose of narrow-spectrum antibiotics.  Check on it in about 24 hours.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
+    "id": "petri_dish_leaf_litter_broadspectrum",
+    "type": "GENERIC",
+    "name": {
+      "str": "leaf litter environmental sample with broad-spectrum antibiotics",
+      "str_pl": "leaf litter environmental samples with broad-spectrum antibiotics"
+    },
+    "description": "A Petri dish with a sample of leaf litter and a dose of broad-spectrum antibiotics.  Check on it in about 24 hours.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
+    "id": "petri_dish_freshwater",
+    "type": "GENERIC",
+    "name": { "str": "freshwater environmental sample" },
+    "description": "A Petri dish with a sample of freshwater.  You're going to have to do more work to get a single-species colony from this.",
+    "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_freshwater_narrowspectrum",
+    "type": "GENERIC",
+    "name": {
+      "str": "freshwater environmental sample with narrow-spectrum antibiotics",
+      "str_pl": "freshwater environmental samples with narrow-spectrum antibiotics"
+    },
+    "description": "A Petri dish with a sample of freshwater and a dose of narrow-spectrum antibiotics.  Check on it in about 24 hours.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
+    "id": "petri_dish_freshwater_broadspectrum",
+    "type": "GENERIC",
+    "name": {
+      "str": "freshwater environmental sample with broad-spectrum antibiotics",
+      "str_pl": "freshwater environmental samples with broad-spectrum antibiotics"
+    },
+    "description": "A Petri dish with a sample of freshwater and a dose of broad-spectrum antibiotics.  Check on it in about 24 hours.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
     "id": "petri_dish_E_coli",
     "type": "GENERIC",
     "name": { "str": "E. coli bacterial culture" },
     "description": "A Petri dish with a E. coli bacterial culture growing on it.",
     "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_C_tetani",
+    "type": "GENERIC",
+    "name": { "str": "C. tetani bacterial culture" },
+    "description": "A Petri dish with a C. tetani bacterial culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_N_commune",
+    "type": "GENERIC",
+    "name": { "str": "N. commune bacterial culture" },
+    "description": "A Petri dish with a N. commune bacterial culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_N_pruniforme",
+    "type": "GENERIC",
+    "name": { "str": "N. pruniforme bacterial culture" },
+    "description": "A Petri dish with a N. pruniforme bacterial culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_M_aeruginosa",
+    "type": "GENERIC",
+    "name": { "str": "M. aeruginosa bacterial culture" },
+    "description": "A Petri dish with a M. aeruginosa bacterial culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract"
+  },
+  {
+    "id": "petri_dish_trachelomonas_armata",
+    "type": "GENERIC",
+    "name": { "str": "Trachelomonas armata protozoal culture" },
+    "description": "A Petri dish with a Trachelomonas armata protozoal culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
+    "id": "petri_dish_euglena_ehrenbergii",
+    "type": "GENERIC",
+    "name": { "str": "Euglena ehrenbergii protozoal culture" },
+    "description": "A Petri dish with a Euglena ehrenbergii protozoal culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
+    "id": "petri_dish_euglena_gracilis",
+    "type": "GENERIC",
+    "name": { "str": "Euglena gracilis protozoal culture" },
+    "description": "A Petri dish with a Euglena gracilis protozoal culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
+  },
+  {
+    "id": "petri_dish_asterionella_formosa",
+    "type": "GENERIC",
+    "name": { "str": "Asterionella formosa chromist culture" },
+    "description": "A Petri dish with a Asterionella formosa chromist culture growing on it.",
+    "copy-from": "petri_dish_colony_abstract_fastdecay"
   }
 ]

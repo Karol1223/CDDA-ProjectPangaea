@@ -1,0 +1,43 @@
+[
+  {
+    "id": "soil_narrowspectrum",
+    "type": "item_group",
+    "//": "Bacterial microorganisms found in the soil.",
+    "items": [ { "item": "petri_dish_C_tetani" }, { "item": "petri_dish_N_commune" } ]
+  },
+  {
+    "id": "soil_broadspectrum",
+    "type": "item_group",
+    "//": "Non-bacterial microorganisms found in the soil. CURRENTLY EMPTY! Once we have some it should be added to the leaf litter broadspectrum group, analogous to how the narrowspectrums interact.",
+    "items": [  ]
+  },
+  {
+    "id": "leaf_litter_narrowspectrum",
+    "type": "item_group",
+    "//": "Bacterial microorganisms found in leaf litter. Likely should be identical to soil, but the group is there in case I missed something.",
+    "items": [ { "group": "soil_narrowspectrum", "prob": 2 } ]
+  },
+  {
+    "id": "leaf_litter_broadspectrum",
+    "type": "item_group",
+    "//": "Non-bacterial microorganisms found in leaf litter. Soil microorganisms + potential slime molds in the future.",
+    "items": [  ]
+  },
+  {
+    "id": "freshwater_narrowspectrum",
+    "type": "item_group",
+    "//": "Bacterial microorganisms found in freshwater.",
+    "items": [ { "item": "petri_dish_N_commune" }, { "item": "petri_dish_N_pruniforme" }, { "item": "petri_dish_M_aeruginosa" } ]
+  },
+  {
+    "id": "freshwater_broadspectrum",
+    "type": "item_group",
+    "//": "Non-bacterial microorganisms found in freshwater.",
+    "items": [
+      { "item": "petri_dish_trachelomonas_armata" },
+      { "item": "petri_dish_euglena_ehrenbergii" },
+      { "item": "petri_dish_euglena_gracilis" },
+      { "item": "petri_dish_asterionella_formosa" }
+    ]
+  }
+]

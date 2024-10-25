@@ -103,5 +103,19 @@
     ],
     "flags": [ "ELECTRONIC", "ALLOWS_REMOTE_USE" ],
     "charges_per_use": 50
+  },
+  {
+    "type": "TOOL",
+    "id": "petri_dish",
+    "name": { "str": "Petri dish", "str_pl": "Petri dishes" },
+    "copy-from": "petri_dish",
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Sample",
+        "description": "Obtain environmental samples.",
+        "effect_on_conditions": [ "EOC_SAMPLER_MICRO" ]
+      }
+    ]
   }
 ]
