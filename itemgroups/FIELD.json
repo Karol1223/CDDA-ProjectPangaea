@@ -49,7 +49,8 @@
       { "item": "genome_platynereis_dumerilii" },
       { "item": "genome_urchin_atlantic_purple" },
       { "item": "genome_parhyale_hawaiensis" },
-      { "item": "genome_E_coli" }
+      { "item": "genome_E_coli" },
+      { "item": "genome_euglena_gracilis" }
     ]
   },
   {

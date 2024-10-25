@@ -5,5 +5,61 @@
     "name": { "str": "genome (Escherichia coli)", "str_pl": "genomes (Escherichia coli)" },
     "description": "The full genome of Escherichia coli implanted on a genome canvas.",
     "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_C_tetani",
+    "name": { "str": "genome (Clostridium tetani)", "str_pl": "genomes (Clostridium tetani)" },
+    "description": "The full genome of Clostridium tetani implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_N_commune",
+    "name": { "str": "genome (Nostoc commune)", "str_pl": "genomes (Nostoc commune)" },
+    "description": "The full genome of Nostoc commune implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_N_pruniforme",
+    "name": { "str": "genome (Nostoc pruniforme)", "str_pl": "genomes (Nostoc pruniforme)" },
+    "description": "The full genome of Nostoc pruniforme implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_M_aeruginosa",
+    "name": { "str": "genome (Microcystis aeruginosa)", "str_pl": "genomes (Microcystis aeruginosa)" },
+    "description": "The full genome of Microcystis aeruginosa implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_trachelomonas_armata",
+    "name": { "str": "genome (Trachelomonas armata)", "str_pl": "genomes (Trachelomonas armata)" },
+    "description": "The full genome of Trachelomonas armata implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_euglena_ehrenbergii",
+    "name": { "str": "genome (Euglena ehrenbergii)", "str_pl": "genomes (Euglena ehrenbergii)" },
+    "description": "The full genome of Euglena ehrenbergii implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_euglena_gracilis",
+    "name": { "str": "genome (Euglena gracilis)", "str_pl": "genomes (Euglena gracilis)" },
+    "description": "The full genome of Euglena gracilis implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
+  },
+  {
+    "type": "GENERIC",
+    "id": "genome_asterionella_formosa",
+    "name": { "str": "genome (Asterionella formosa)", "str_pl": "genomes (Asterionella formosa)" },
+    "description": "The full genome of Asterionella formosa implanted on a genome canvas.",
+    "copy-from": "genome_canvas"
   }
 ]

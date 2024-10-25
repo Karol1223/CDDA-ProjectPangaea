@@ -1,0 +1,172 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_MICRO",
+    "effect": [ { "run_eocs": [ "EOC_SAMPLER_MICRO_TERRAIN" ] } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SAMPLER_MICRO_TERRAIN",
+    "condition": {
+      "and": [
+        {
+          "u_query_tile": "line_of_sight",
+          "target_var": { "context_val": "check_terrain" },
+          "message": "Choose a tile to get a sample from.",
+          "range": 1
+        }
+      ]
+    },
+    "effect": [
+      {
+        "if": { "map_terrain_id": "t_dirt", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_dirt_isherwood_player_spawnpoint", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_quietfarm_border_ground", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_dirt_underground", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_dirtmound", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_dirtmoundfloor", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_grass", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_grass_golf", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_grass_long", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_grass_tall", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_grass_dead", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_moss", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_moss_underground", "loc": { "context_val": "check_terrain" } },
+        "then": [ { "u_spawn_item": "petri_dish_soil" }, { "u_consume_item": { "context_val": "id" } }, { "math": [ "_foo", "++" ] } ]
+      },
+      {
+        "if": { "map_terrain_id": "t_forestfloor", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_leaf_litter" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_sh", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_sh_underground", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_murky", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_sh_murky_underground", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_moving_sh", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_moving_sh_underground", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_dp", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_dp_underground", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_moving_dp", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_moving_dp_underground", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      {
+        "if": { "map_terrain_id": "t_water_cube", "loc": { "context_val": "check_terrain" } },
+        "then": [
+          { "u_spawn_item": "petri_dish_freshwater" },
+          { "u_consume_item": { "context_val": "id" } },
+          { "math": [ "_foo", "++" ] }
+        ]
+      },
+      { "if": { "math": [ "_foo > 0" ] }, "else": { "u_message": "Nothing to sample here." } }
+    ]
+  }
+]
