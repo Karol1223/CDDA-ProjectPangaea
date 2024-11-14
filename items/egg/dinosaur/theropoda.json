@@ -5,8 +5,7 @@
     "name": { "str": "Coelophysis bauri egg" },
     "description": "A bird egg implanted with a Coelophysis bauri embryo.",
     "copy-from": "egg_chicken",
-    "rot_spawn": "GROUP_egg_clone_coelophysis",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_coelophysis", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   },
   {
@@ -15,8 +14,7 @@
     "name": { "str": "Velociraptor mongoliensis egg" },
     "description": "A bird egg implanted with a Velociraptor mongoliensis embryo.",
     "copy-from": "egg_chicken",
-    "rot_spawn": "GROUP_egg_clone_velociraptor",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_velociraptor", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   },
   {
@@ -25,8 +23,7 @@
     "name": { "str": "Dilophosaurus wetherilli egg" },
     "description": "A bird egg implanted with a Dilophosaurus wetherilli embryo.",
     "copy-from": "egg_goose_canadian",
-    "rot_spawn": "GROUP_egg_clone_dilophosaurus",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_dilophosaurus", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   },
   {
@@ -35,8 +32,7 @@
     "name": { "str": "Tyrannosaurus rex egg" },
     "description": "A bird egg implanted with a Tyrannosaurus rex embryo.",
     "copy-from": "egg_ostrich",
-    "rot_spawn": "GROUP_egg_clone_tyrannosaurus",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_tyrannosaurus", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   }
 ]

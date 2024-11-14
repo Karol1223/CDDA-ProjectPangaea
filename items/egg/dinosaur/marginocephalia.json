@@ -5,8 +5,7 @@
     "name": { "str": "Triceratops horridus egg" },
     "description": "A bird egg implanted with a Triceratops horridus embryo.",
     "copy-from": "egg_ostrich",
-    "rot_spawn": "GROUP_egg_clone_triceratops",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_triceratops", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   }
 ]

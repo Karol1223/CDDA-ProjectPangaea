@@ -5,8 +5,7 @@
     "name": { "str": "Xiphactinus audax roe" },
     "description": "A cluster of saltwater fish roe implanted with Xiphactinus audax embryos.",
     "copy-from": "egg_fish",
-    "rot_spawn": "GROUP_egg_clone_xiphactinus",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_xiphactinus", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   }
 ]

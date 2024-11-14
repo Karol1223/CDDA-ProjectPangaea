@@ -5,8 +5,7 @@
     "name": { "str": "Brachiosaurus altithorax egg" },
     "description": "A bird egg implanted with a Brachiosaurus altithorax embryo.",
     "copy-from": "egg_ostrich",
-    "rot_spawn": "GROUP_egg_clone_brachiosaurus",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_brachiosaurus", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   }
 ]

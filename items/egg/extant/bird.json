@@ -8,7 +8,7 @@
     "weight": "1400 g",
     "volume": "1540 ml",
     "calories": 2002,
-    "rot_spawn": "GROUP_egg_ostrich",
+    "rot_spawn": { "monster": "mon_ostrich_juv", "chance": 70 },
     "vitamins": [ [ "calcium", 76 ], [ "iron", 101 ] ]
   },
   {
@@ -28,7 +28,7 @@
     "name": { "str": "cloned feral pigeon egg" },
     "description": "A bird egg implanted with a feral pigeon embryo.  It is guaranteed to hatch.",
     "copy-from": "egg_pigeon",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   },
   {
@@ -37,7 +37,7 @@
     "name": { "str": "cloned chicken egg" },
     "description": "A bird egg implanted with a domestic chicken embryo.  It is guaranteed to hatch.",
     "copy-from": "egg_chicken",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   },
   {
@@ -46,7 +46,7 @@
     "name": { "str": "cloned Canada goose egg" },
     "description": "A bird egg implanted with a Canada goose embryo.  It is guaranteed to hatch.",
     "copy-from": "egg_goose_canadian",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   },
   {
@@ -55,7 +55,7 @@
     "name": { "str": "cloned ostrich egg" },
     "description": "A bird egg implanted with an African ostrich embryo.  It is guaranteed to hatch.",
     "copy-from": "egg_ostrich",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   }
 ]

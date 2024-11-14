@@ -5,8 +5,7 @@
     "name": { "str": "Pteranodon longiceps egg" },
     "description": "A bird egg implanted with a Pteranodon longiceps embryo.",
     "copy-from": "egg_goose_canadian",
-    "rot_spawn": "GROUP_egg_clone_pteranodon",
-    "rot_spawn_chance": 100,
+    "rot_spawn": { "group": "GROUP_egg_clone_pteranodon", "chance": 100 },
     "extend": { "flags": [ "NUTRIENT_OVERRIDE" ] }
   }
 ]
