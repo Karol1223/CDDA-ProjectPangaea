@@ -11,7 +11,7 @@
       "and": [
         {
           "u_query_tile": "line_of_sight",
-          "target_var": { "context_val": "check_terrain" },
+          "target_var": { "global_val": "check_terrain" },
           "message": "Choose a tile to get a sample from.",
           "range": 1
         }

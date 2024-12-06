@@ -4,7 +4,7 @@
     "id": "EOC_ANALYZER_CHICKEN_1",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_chicken",
           "recipe_to_give_1": "genome_chicken",
@@ -18,7 +18,7 @@
     "id": "EOC_ANALYZER_CHICKEN_2",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "genome_chicken", "recipe_to_give_1": "egg_clone_chicken" }
       }
     ]
@@ -28,7 +28,7 @@
     "id": "EOC_ANALYZER_PIGEON_1",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_pigeon",
           "recipe_to_give_1": "genome_pigeon",
@@ -42,7 +42,7 @@
     "id": "EOC_ANALYZER_PIGEON_2",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "genome_pigeon", "recipe_to_give_1": "egg_clone_pigeon" }
       }
     ]
@@ -52,7 +52,7 @@
     "id": "EOC_ANALYZER_GOOSE_CANADIAN",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_goose_canadian",
           "recipe_to_give_1": "genome_goose_canadian",
@@ -66,7 +66,7 @@
     "id": "EOC_ANALYZER_OSTRICH",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_ostrich",
           "recipe_to_give_1": "genome_ostrich",

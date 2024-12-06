@@ -28,7 +28,7 @@
     "stomach_size": 45000,
     "scents_tracked": [ "sc_human", "sc_fetid" ],
     "special_attacks": [
-      { "id": "teeth_grab_medium", "condition": { "math": [ "n_val('volume')", "<=", "70000" ] } },
+      { "id": "teeth_grab_medium", "condition": { "math": [ "n_volume()", "<=", "70000" ] } },
       { "id": "teeth_bleed_medium" },
       [ "EAT_CARRION", 1 ]
     ],

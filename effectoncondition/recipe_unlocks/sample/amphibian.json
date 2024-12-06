@@ -4,7 +4,7 @@
     "id": "EOC_ANALYZER_AXOLOTL",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_axolotl", "recipe_to_give_1": "genome_axolotl" }
       }
     ]
@@ -14,7 +14,7 @@
     "id": "EOC_ANALYZER_FROG_AFRICAN_CLAWED",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_frog_african_clawed", "recipe_to_give_1": "genome_frog_african_clawed" }
       }
     ]

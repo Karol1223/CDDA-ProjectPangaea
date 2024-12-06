@@ -6,7 +6,7 @@
       { "math": [ "u_amount_of_calories_for_nutrifluid", "=", "0" ] },
       {
         "u_run_inv_eocs": "manual_mult",
-        "search_data": [ { "calories": 1 } ],
+        "search_data": [ { "condition": { "math": [ "u_calories() < 0" ] } } ],
         "true_eocs": [ "EOC_COUNT_NUTRIFLUID" ]
       },
       { "u_spawn_item": "nutrifluid_temporary", "count": { "math": [ "u_amount_of_calories_for_nutrifluid / 10" ] } }

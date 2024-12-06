@@ -4,7 +4,7 @@
     "id": "EOC_ANALYZER_CORN",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "corn", "recipe_to_give_1": "genome_corn", "recipe_to_give_2": "seed_corn_clone" }
       }
     ]
@@ -14,7 +14,7 @@
     "id": "EOC_ANALYZER_CORN_2",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "empty_corn_cob", "recipe_to_give_1": "genome_corn", "recipe_to_give_2": "seed_corn_clone" }
       }
     ]
@@ -24,7 +24,7 @@
     "id": "EOC_ANALYZER_JAPANESE_KNOTWEED",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "japanese_knotweed_stem",
           "recipe_to_give_1": "genome_japanese_knotweed",
@@ -38,7 +38,7 @@
     "id": "EOC_ANALYZER_JAPANESE_KNOTWEED_2",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_japanese_knotweed",
           "recipe_to_give_1": "genome_japanese_knotweed",
@@ -52,7 +52,7 @@
     "id": "EOC_ANALYZER_BLACK_EYED_SUSAN",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_black_eyed_susan", "recipe_to_give_1": "genome_black_eyed_susan" }
       }
     ]
@@ -62,7 +62,7 @@
     "id": "EOC_ANALYZER_CHAMOMILE",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "chamomile", "recipe_to_give_1": "genome_chamomile", "recipe_to_give_2": "seed_chamomile_clone" }
       }
     ]
@@ -72,7 +72,7 @@
     "id": "EOC_ANALYZER_CHAMOMILE_2",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_chamomile",
           "recipe_to_give_1": "genome_chamomile",
@@ -86,7 +86,7 @@
     "id": "EOC_ANALYZER_SASSAFRAS",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "sassafras_root", "recipe_to_give_1": "genome_sassafras" }
       }
     ]
@@ -96,7 +96,7 @@
     "id": "EOC_ANALYZER_SASSAFRAS_2",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_sassafras", "recipe_to_give_1": "genome_sassafras" }
       }
     ]
@@ -106,7 +106,7 @@
     "id": "EOC_ANALYZER_BEECH",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "beech_nuts", "recipe_to_give_1": "genome_beech" }
       }
     ]
@@ -116,7 +116,7 @@
     "id": "EOC_ANALYZER_BEECH_2",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_beech", "recipe_to_give_1": "genome_beech" }
       }
     ]
@@ -126,7 +126,7 @@
     "id": "EOC_ANALYZER_THALE_CRESS",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_thale_cress", "recipe_to_give_1": "genome_thale_cress" }
       }
     ]
@@ -136,7 +136,7 @@
     "id": "EOC_ANALYZER_SELAGINELLA",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_selaginella", "recipe_to_give_1": "genome_selaginella" }
       }
     ]

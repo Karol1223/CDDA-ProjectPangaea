@@ -4,7 +4,7 @@
     "id": "EOC_ANALYZER_SALMON",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_salmon",
           "recipe_to_give_1": "genome_salmon",
@@ -18,7 +18,7 @@
     "id": "EOC_ANALYZER_BLUEFIN_TUNA",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "tissue_sample_bluefin_tuna",
           "recipe_to_give_1": "genome_bluefin_tuna",
@@ -32,7 +32,7 @@
     "id": "EOC_ANALYZER_ZEBRA_DANIO",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": { "item_to_analyze": "tissue_sample_zebra_danio", "recipe_to_give_1": "genome_zebra_danio" }
       }
     ]
