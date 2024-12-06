@@ -97,18 +97,7 @@
     "description": "A Petri dish with a sample of soil and a dose of narrow-spectrum antibiotics.  Check on it in about 24 hours.",
     "copy-from": "petri_dish_colony_abstract_fastdecay",
     "countdown_interval": "24 hours",
-    "countdown_action": {
-      "type": "effect_on_conditions",
-      "effect_on_conditions": [
-        {
-          "id": "SOIL_NARROWSPECTRUM_RANDOM",
-          "effect": [
-            { "set_string_var": { "mutator": "npc_loc_relative", "target": "(0,0,0)" }, "target_var": { "context_val": "loc" } },
-            { "map_spawn_item": "soil_narrowspectrum", "use_item_group": true, "loc": { "context_val": "loc" } }
-          ]
-        }
-      ]
-    }
+    "countdown_action": { "type": "transform", "target_group": "soil_narrowspectrum" }
   },
   {
     "id": "petri_dish_soil_broadspectrum",

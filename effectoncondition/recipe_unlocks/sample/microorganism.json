@@ -4,7 +4,7 @@
     "id": "EOC_ANALYZER_SAMPLE_SOIL",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "petri_dish_soil",
           "recipe_to_give_1": "petri_dish_soil_narrowspectrum",
@@ -18,7 +18,7 @@
     "id": "EOC_ANALYZER_SAMPLE_LEAF_LITTER",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "petri_dish_leaf_litter",
           "recipe_to_give_1": "petri_dish_leaf_litter_narrowspectrum",
@@ -32,7 +32,7 @@
     "id": "EOC_ANALYZER_SAMPLE_FRESHWATER",
     "effect": [
       {
-        "run_eoc_with": "EOC_ANALYZER_ABSTRACT",
+        "run_eocs": "EOC_ANALYZER_ABSTRACT",
         "variables": {
           "item_to_analyze": "petri_dish_freshwater",
           "recipe_to_give_1": "petri_dish_freshwater_narrowspectrum",
