@@ -4,7 +4,7 @@
     "id": "egg_ostrich",
     "name": { "str": "ostrich egg" },
     "description": "A huge egg laid by an ostrich.",
-    "copy-from": "egg_bird",
+    "copy-from": "egg_chicken",
     "weight": "1400 g",
     "volume": "1540 ml",
     "calories": 2002,
